@@ -1,0 +1,200 @@
+Build a responsive multi-page website titled "IB Personal Project — Self-Improvement (Mert)".
+Each research question must live on its own dedicated page (not a single long page). The site must be modern, premium, examiner-friendly, and meet the IB criteria Excellent (7–8) band for content, structure, practicality, impact, and technical execution. Do not include a Sources page or Reflections/Evidence page.
+
+GLOBAL REQUIREMENTS
+
+* Aesthetic: premium, modern, minimal. Light mode default + dark mode toggle.
+* Theme: Primary Deep Navy #0F172A; Accent Teal #0EA5A4; Neutrals Off-White #F8FAFC, Soft Gray #E5E7EB, Charcoal #1F2937.
+* Typography: Headings serif (Playfair Display or Spectral), body sans (Inter or SF Pro). Base 18–19px, H1 40–44px, H2 32–36px.
+* Layout: 12-column responsive grid, max width 1100–1200px, generous whitespace.
+* Navigation: sticky top nav with dropdown "Questions"; breadcrumbs on every inner page; prev/next links at bottom of every question page.
+* Motion: subtle fade/slide; respect prefers-reduced-motion.
+* Accessibility: semantic HTML, visible focus rings, alt text, contrast >= 4.5:1, keyboard navigable.
+* Footer (global): "Project by Mert — Last updated: YYYY-MM-DD" + theme toggle.
+* Performance/SEO: lazy-load images, defer non-critical JS, per-page meta title/description, Open Graph/Twitter tags, sitemap.xml, robots.txt, canonical URLs.
+* Visuals: include tasteful, relevant visuals per page.
+
+SITE MAP (one page per item, use these slugs)
+
+* /               (Home)
+* /learning-goal/
+* /product-goal/
+* /what-is-self-improvement/
+* /q2-motivation/
+* /q3-factors/
+* /q4-small-changes/
+* /q5-health/
+* /q6-confidence/
+* /q7-habits/
+* /q8-long-term-investment/
+* /q9-challenges/
+* /q10-4week-journey/
+* /q11-survey/
+* /q12-strategies/
+* /about/
+
+GLOBAL TOP NAV
+
+* Home, Learning Goal, Product Goal, Questions (dropdown Q1–Q12), About.
+* Questions dropdown links to all question pages above.
+
+PAGE TEMPLATE (apply to every inner page)
+
+* Hero band with page title (H1) on a soft gradient background.
+* Under hero: a 1–2 sentence summary (overview).
+* Main content card (rounded corners, soft shadow) containing the full user-provided text for that page, pasted verbatim.
+* Key Takeaway callout (accent border) — one-sentence highlight.
+* Prev/Next navigation to adjacent question pages.
+* Breadcrumbs: Home > Questions > Current Page.
+
+INSERT USER TEXTS VERBATIM INTO THESE PAGES
+(Do not alter wording, except the noted edit for Q7. Include a short 1–2 sentence summary at the top of each page before the main text.)
+
+1. /what-is-self-improvement/ — Title: What is self-improvement?
+- Striving for a purposeful and worthwhile life starts most often with motivation-fueled devotion to self-improvement, showcasing humanity’s intrinsic desire to pursue progression and perpetual development. Whether you’re looking to augment your personality, acquire new skills, refine existing skills, overcome obstacles you face on a daily basis, improve overall wellbeing and satisfaction or satiate your appetite for success, self-improvement can act as your way-finder in your personal journey to become your best self.
+
+- Self-improvement can be defined as the entirety of constant yet stable changes aimed towards developing one’s personal qualities —namely intrapersonal (about the self), interpersonal (relations with others), professional, and practical qualities— purely by a one’s own efforts. It incorporates many ideologies, tactics and practices targeted towards betterment. Self-improvement boils down to a practice that requires continuity, critical reflection, uncompromising honesty to identify aspects that are in need of growth, and conscious action to address them. Self improvement can have diverse benefits that change the way we perceive ourselves and engage with our surroundings. 
+
+- Furthermore, when people talk about self-improvement, they usually talk about procuring some degree of achievement (status, money, etc.). Such improvement concern a person’s life situation —resources of conditions that make daily living better, but do not fundamentally alter who the person really is. Which is not to be considered the same as self-improvement, as self-improvement delves into an individual’s psychology and does not possess materialistic attributes.
+
+2. /q2-motivation/ — Title: What motivates individuals to begin a self-improvement journey, and what factors influence their success or failure?
+- People start improving themselves for all sorts of reasons, usually because they feel something is missing or not quite right in their lives. It could be anxiety, stress, or a general dissatisfaction with how things are going. Often, people notice they want better mental health, more confidence, or a greater sense of life satisfaction. Sometimes inspiration comes from seeing others succeed – mentors, celebrities, or friends who have achieved their goals – which shows how much social examples can influence motivation.
+
+- Psychology tells us that motivation sticks when it comes from within, meaning the goals we set should truly matter to us personally. External rewards or social recognition can kick things off, but they don’t usually sustain long-term change. Things that make self-improvement successful include having realistic goals, believing in yourself, planning properly, keeping a positive mindset, and having a supportive environment. On the flip side, lack of planning, setting unrealistic expectations, or being overly critical of yourself can make progress much harder. Successful self-improvement usually combines intrinsic motivation, consistent habits, and noticing the small wins along the way.
+
+3. /q3-factors/ — Title: Which factors provoke the desire for self-improvement?
+- The urge to improve yourself usually starts when you notice a gap between who you are and who you want to be. Maybe your habits, skills, or mindset aren’t where you’d like them to be, or you experience a setback that makes you realize change is needed. Higgins’ self-discrepancy theory explains this: realizing your actual self isn’t matching your ideal self creates an uncomfortable feeling that motivates you to act.
+
+- Other triggers include seeing others succeed, societal expectations, or the basic human needs of competence, autonomy, and connection (from Self-Determination Theory). Reading about someone else’s transformational journey, reflecting on your own experiences, or noticing what you want for your life can push you to start improving. Daily stress, academic or career challenges, or just a desire to live a more fulfilled life can all spark the motivation to grow. Basically, self-awareness, social influences, and emotional nudges all come together to make the desire for self-improvement stronger.
+
+4. /q4-small-changes/ — Title: What role do small, consistent changes play in long-term growth?
+- Small changes are where the real magic happens. James Clear calls these “atomic habits” – tiny, repeated actions that slowly build up into big results. Doing a few minutes of meditation, reading, or exercise each day may seem minor at first, but over time, it can make a huge difference in your mental and physical health.
+
+- These little steps work because they’re easy to start and don’t feel overwhelming. Every time you follow through, it reinforces your brain’s habits and makes the action more automatic. And consistency matters – doing something small every day often beats trying a big, sporadic change that’s too hard to maintain. Over time, these small improvements stack up, creating measurable growth, boosting confidence, and showing you that steady, incremental change beats dramatic, short-term efforts.
+
+5. /q5-health/ — Title: How does self-improvement affect physical and mental health?
+- Working on yourself doesn’t just change your mindset – it changes your body too. Mentally, practices like goal-setting, mindfulness, and journaling can reduce stress, lower anxiety, and lift your mood. When you see progress in your habits or goals, your self-esteem grows, and you become more resilient.
+
+- Physically, habits like exercising regularly, eating better, and sleeping consistently improve your overall well-being. What’s cool is that improvements in one area often help the other: when your mind feels calmer and more in control, sticking to healthy habits becomes easier. Essentially, small, consistent self-improvement creates a positive cycle where mental and physical health reinforce each other, improving overall quality of life.
+
+6. /q6-confidence/ — Title: In what ways can self-improvement reduce insecurities and build confidence?
+- Self-improvement directly targets insecurities by helping you gain competence and self-awareness. Setting small, achievable goals and hitting them shows you that you can succeed, which naturally boosts confidence. Tracking progress – even small wins – helps you see that growth is real, not just something you hope for.
+
+- Practicing in areas where you feel weak allows you to overcome fears gradually. Social support also helps: mentors, peers, and role models can encourage and guide you, giving confidence a further boost. Over time, these successes build momentum, transforming self-doubt into resilience and a stronger belief in your abilities.
+
+7. /q7-habits/ — Title: What habits, routines, and characteristics do successful people (millionaires, entrepreneurs, high achievers) have in common?
+- Research shows that high achievers tend to live highly structured, intentional lives. They have disciplined routines, often starting their days with exercise, meditation, or journaling. Continuous learning is key – many read daily or pursue new skills regularly.
+
+- Goal setting and time management are also common traits. Successful people break big goals into smaller steps and track progress along the way. They embrace a growth mindset, seeing challenges as opportunities rather than threats. Social support, mentorship, and the company of other motivated people play a big role too. Finally, they take care of their physical and mental health, knowing that energy and focus are essential to sustain productivity and performance.
+
+8. /q8-long-term-investment/ — Title: How can long-term investment into oneself lead to success?
+- Investing in personal development over the long term builds skills, confidence, and resilience, laying the foundation for sustainable success. This investment may include education, professional training, physical and mental health practices, and reflective self-improvement strategies. Continuous learning and skill acquisition expand opportunities, while self-awareness and emotional intelligence enhance decision-making and relationships. Long-term investment also encourages patience and discipline: instead of seeking immediate results, individuals focus on compounding benefits from steady effort. Psychologically, believing in one’s ability to improve, a concept rooted in self-efficacy theory, increases persistence in the face of obstacles. By dedicating consistent time and resources to self-growth, people prepare themselves to seize opportunities, adapt to change, and achieve meaningful accomplishments over time.
+
+9. /q9-challenges/ — Title: What are the challenges and misconceptions about self-improvement?
+- Many people encounter challenges when pursuing self-improvement, including unrealistic expectations, inconsistency, and the temptation to compare themselves to others. Common misconceptions include believing that change requires drastic, immediate action or that self-improvement is primarily about external achievements like wealth or status. In reality, effective improvement involves incremental progress, internal reflection, and long-term commitment. Psychological barriers, such as fear of failure, low self-efficacy, or perfectionism, can hinder progress. Additionally, individuals may underestimate the importance of environment and social support in sustaining new habits. Understanding these challenges allows learners to plan more realistic goals, implement gradual changes, and maintain a compassionate, patient mindset toward themselves, ultimately increasing the likelihood of meaningful and lasting improvement.
+
+10. /q10-4week-journey/ — Title: My 4-Week Self-Improvement Journey
+- My 4-Week Self-Improvement Journey
+Week 1: Awareness and Understanding Myself
+I began by observing my daily habits, thoughts, and emotions. I kept a journal every morning and evening, noting how I felt, what I achieved, and where I struggled. Through this, I realized that I often procrastinate, especially after checking my phone or social media after school at home. I also noticed a recurring pattern of self-doubt whenever I faced challenges at school or with my personal project.
+
+I set three areas to focus on:
+1. Reducing anxiety and stress
+2. Improving productivity and focus
+3. Building confidence in social and academic situations
+
+By tracking habits like sleep, study periods, and exercise, I established a baseline. For example, I found that my energy was highest in the morning, but I often wasted it scrolling through social media after school. I also reflected on past successes—like finishing a challenging project last year—and realized that structured routines helped me succeed before. This reflection made me feel motivated to start small and build momentum.
+
+Week 2: Starting Small Habits
+I decided to implement small, manageable changes instead of trying to overhaul my life overnight. I focused on one habit per area:
+* Meditation for 5 minutes every morning after brushing my teeth
+* Reading 10 minutes daily to improve focus and knowledge
+* Daily reflection in my journal to track emotions and progress
+
+At first, meditation felt difficult; my mind wandered constantly. But by the third day, I noticed a calmer mindset during classes, and my journaling helped me see patterns in my stress triggers. I also started using habit stacking: reading right after breakfast and journaling before bed.
+
+This week taught me the value of consistency over intensity. Even small changes began to feel rewarding. I could already see minor improvements in focus, and I felt a sense of accomplishment each time I completed a habit.
+
+Week 3: Reflection, Adjustment, and Support
+By the third week, I evaluated what worked and what didn’t. Meditation became more natural, so I increased it to 10 minutes. Reading was easy to maintain, but I realized I was rushing through it. I slowed down, choosing quality over quantity. Journaling revealed that my biggest stress triggers were procrastination and negative self-talk.
+
+I also sought feedback from teachers and close friends. Their observations helped reinforce my progress and motivated me to continue.
+
+I started visualizing mid-term goals, such as completing homework efficiently without procrastination and feeling confident during presentations. I also began reflecting on the mental shift: I was less self-critical and more aware of small achievements. I could see my confidence slowly growing as I completed tasks I previously avoided.
+
+Week 4: Integration and Deep Reflection
+In the final week, I focused on integrating these habits fully into my routine. Meditation, journaling, and reading became part of my daily schedule, and I felt more in control of my thoughts and emotions. I also added a short exercise routine to complement mental growth with physical energy.
+Reflecting on the entire month, the changes were significant:
+* Anxiety and stress were more manageable, especially in high-pressure situations
+* My focus improved, and I could complete tasks more efficiently
+* Confidence grew as I noticed real progress in areas I previously doubted
+
+Daily journaling allowed me to track small wins and recognize growth. For example, I could handle a stressful assignment calmly instead of panicking. This reflection helped me see that small, consistent actions truly compound into meaningful personal development.
+
+By the end of the four weeks, I felt a deeper understanding of self-improvement. I learned that growth isn’t about perfection but persistence. The process strengthened my resilience, improved my daily habits, and gave me a practical roadmap for continuing self-improvement beyond these four weeks.
+
+11. /q11-survey/ — Title: Survey
+The survey results show that most people see self-improvement as something deeply personal — a journey that helps them feel more in control, happier, and more confident in their everyday lives. Many described it not as a race to success, but as a slow, steady process of becoming a better version of themselves.
+
+When asked what self-improvement meant to them, most participants said it was about finding balance, overcoming anxiety, and learning discipline. A few said it was simply about feeling proud of small wins — like reading a few pages every day or staying calm under stress.
+
+- How people view progress
+Nearly everyone who took the survey had tried at least one self-improvement activity. The most common ones were journaling, exercising, reading, and mindfulness. Most said these practices helped them think more clearly, manage stress, and feel better about themselves.
+
+When asked how effective self-improvement was in their daily life, participants rated it on average:
+* 3.9 / 5 for improving happiness and life satisfaction
+* 3.8 / 5 for reducing stress and anxiety
+* 3.7 / 5 for increasing productivity
+In other words, most people genuinely felt that even small habits made a noticeable difference.
+
+- What people struggle with
+Even though the majority felt positive about their journey, keeping habits consistent was one of the biggest challenges. Some said they “start strong but lose motivation,” while others mentioned time management and distraction as obstacles. Still, most respondents agreed that starting small and tracking progress helped them stay on track.
+
+- Overall takeaway
+The survey showed that people don’t view self-improvement as a quick fix — it’s more like building a long-term relationship with yourself. Simple, repeated actions such as journaling or mindful breaks made them calmer, more disciplined, and more focused over time.
+
+In short, self-improvement helped participants think clearer, feel better, and live 
+with more intention.
+
+12. /q12-strategies/ — Title: What strategies can be applied to everyday life to ensure long-term improvement?
+- Applying self-improvement strategies to everyday life requires a combination of structure, consistency, and mindful reflection. Research shows that habit formation is most effective when changes are small, specific, and repeatable, rather than overwhelming or vague. James Clear emphasizes the concept of “atomic habits”—tiny, incremental changes that compound over time to produce significant long-term results. For example, committing to just 5 minutes of reading or 2 minutes of meditation daily is more sustainable than attempting a radical overhaul, yet consistency over weeks leads to lasting improvement.
+
+- Goal setting is another vital strategy. Studies on Self-Determination Theory show that individuals are more motivated and likely to succeed when goals are intrinsically meaningful—aligned with personal values rather than external rewards. Therefore, everyday improvements should begin with small goals that matter personally, such as improving concentration, managing stress, or developing a healthier routine.
+
+- Accountability is equally important. Bandura’s work on self-efficacy suggests that observing others, receiving feedback, and monitoring one’s progress enhances the likelihood of sticking with a habit. Tools like habit trackers, journaling, or apps that record progress help users reflect on their growth and reinforce self-discipline.
+
+- Mindset shifts are also crucial. Higgins’ self-discrepancy theory indicates that progress is supported when individuals recognize the gap between their actual self and ideal self without harsh self-criticism. Daily reflection on small wins, gratitude, and reframing challenges as opportunities helps maintain motivation.
+
+- Finally, integrating multiple domains of improvement—physical, mental, and social—is recommended for sustainable growth. For example, pairing short exercise sessions with mindfulness, reading, or skill-building creates a holistic improvement routine that positively influences mood, confidence, and overall life satisfaction. By planning small, realistic actions, reflecting on progress, and reinforcing habits, individuals can embed self-improvement into daily life in a way that is both practical and rewarding.
+
+ALSO INCLUDE
+/learning-goal/ — Ever since i was young, I was fascinated by what it really meant to sense personal fulfillment. I frequently found myself absorbed in deep thought, “What would it take to live fulfilled life as those I look up to?” From that moment forward, that question stood with me and became a mental compass in my mind, ultimately igniting my compelling passion in the psychological idea of self-improvement. As years assed by and slowly moved into early my teenage years, I was faced with the bitter yet eye-opening truth of self-awareness. Insecurities once absent insecurities started to show themselves, consequently leading to a considerable decline in my self confidence. This, sequentially became the source of my anxiety that would stay with me in the years to come. Doubting my own thoughts and questioning my mind nearly became second nature. It’s been five years since anxiety found its way into my life. The mental toll it took on me caused my wellbeing to steadily deteriorate. Recently, I have decided that I no longer wanted to live under its weight, and I made a resolution to start taking steps towards overcoming it. With those being said, my learning goal is to grasp the diversified nature of self-improvement by investigating how small, consistent changes in daily habits and mindset can lead to long-term positive outcomes in both physical and mental health. I aim to understand how self-improvement can help reduce insecurities, increase confidence, and improve overall life quality. I will research the intricacies of self-improvement and the general principles of it, which I’ll be mostly focused on, research the habits and characteristics of successful individuals, such as millionaires and entrepreneurs, to analyze what contributes/contributed to their success. I also plan to seek perspectives from people around me and evaluate how different self-improvement strategies affect personal growth. Through this process, I hope to develop a deeper understanding of how self-improvement functions and how it can be practically applied to every aspect of our lives, build self-confidence and —most importantly— overcome my anxiety.
+
+/product-goal/ — My product goal is to create an in-depth, well planned out website that delves into the concept of self-improvement. The website will consist of theoretical research, findings from books (ex. Atomic Habits by James Clear), websites, interviews, surveys, real-life implementations of self-improvement techniques, interviews with people who practice self-improvement on a daily basis. It will also include a reflection on my own personal journey of applying minor lifestyle changes—for instance lifelong habit formation, productivity techniques, mindset shifts—and analyzing their effects on my mental wellbeing, confidence and anxiety. The final product will not only present theoretical research but also practical insights gained through observation and experimentation.
+
+- Other than presenting research, there is a greater motive behind my product. My website will be of service to raise awareness about anxiety and insecurities me and various other individuals tend to struggle with. My intent is to convey that self-improvement is beyond external achievement, but is mainly based on overcoming internal obstacles one might put on themselves, building self-esteem, and learning to accept their true selves. In order to make this possible, I will add pragmatic solutions, real-life demonstrations of self-improvement, and step-by-step guides that can be used in daily life.
+
+- Ultimately, the finished version of my product have a much purposeful use other than being a source of information that people could refer to; it will be a resource designed to guide people and help them understand through small consistent changes that they can achieve growth and a sense of fulfillment. By sharing my own journey and research, I wish to empower others to address their insecurities, raise their self-confidence by minimizing self-doubt and take actionable steps towards achieving their own goals.
+/about/ — [INSERT SHORT PROJECT DESCRIPTION HERE]
+
+HOME PAGE ( / )
+
+* Premium hero headline: "Small Steps. Real Growth."
+* Subhead (1–2 lines) summarizing the project aim.
+* Two CTAs: Start with "What is self-improvement?" and Jump to the 4-Week Journey.
+* A Questions grid (cards linking to Q1–Q12 pages).
+* A CTA strip near the footer: "Try one tiny habit today: choose, do it daily, reflect."
+
+IB CRITERIA ALIGNMENT (built into UX)
+
+* Content Quality: Each question on its own page with overview + full text, clear hierarchy.
+* Structure & Design: Clean nav, breadcrumbs, prev/next, consistent premium visuals.
+* Practicality & Reflection: Dedicated page for the 4-week process (Q10) with subheadings.
+* Educational & Emotional Impact: Key Takeaway on every page + CTA.
+* Technicality & Time: Responsive, accessible, performant; Last updated in footer; SEO and sitemap.
+
+IMPORTANT
+
+* Paste the user’s supplied texts verbatim into their designated pages.
+* Ensure summaries, visuals per page, Key Takeaways, breadcrumbs, and prev/next links are present on all question pages.
+* Add dark mode, smooth interactions, and premium visuals throughout.
