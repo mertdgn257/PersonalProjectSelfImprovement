@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function Q6ConfidencePage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q6: Building Confidence"
+        description="Exploring how building competence and achieving small wins transforms self-doubt into lasting confidence and resilience."
+        path="/q6-confidence"
+      />
       <HeroSection title="In what ways can self-improvement reduce insecurities and build confidence?" />
 
       <main className="flex-1">

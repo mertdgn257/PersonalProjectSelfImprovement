@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -8,6 +9,11 @@ import achievementImage from "@assets/generated_images/Achievement_and_goals_vis
 export default function Q7HabitsPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q7: Habits of Successful People"
+        description="Analyzing the common routines, characteristics, and mindsets shared by high achievers, entrepreneurs, and successful individuals."
+        path="/q7-habits"
+      />
       <HeroSection title="Habits of Successful People" backgroundImage={achievementImage} />
 
       <main className="flex-1">

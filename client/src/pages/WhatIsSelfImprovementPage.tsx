@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -8,6 +9,11 @@ import continuousImage from "@assets/generated_images/Continuous_improvement_pat
 export default function WhatIsSelfImprovementPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q1: What is self-improvement?"
+        description="Exploring the fundamental concept of self-improvement as a journey of personal development through continuous, intentional change and internal psychological growth."
+        path="/what-is-self-improvement"
+      />
       <HeroSection title="What is self-improvement?" backgroundImage={continuousImage} />
 
       <main className="flex-1">

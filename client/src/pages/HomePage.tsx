@@ -1,4 +1,5 @@
 import { Link } from "wouter";
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { QuestionCard } from "@/components/QuestionCard";
 import { Button } from "@/components/ui/button";
@@ -82,6 +83,11 @@ const questions = [
 export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Home - Small Steps. Real Growth"
+        description="Discover how consistent, intentional changes can transform your life. Explore comprehensive research on self-improvement through 12 focused investigations."
+        path="/"
+      />
       <HeroSection title="Small Steps. Real Growth." backgroundImage={heroImage}>
         <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8" data-testid="text-hero-subhead">
           Discover how consistent, intentional changes can transform your life through research, reflection, and practical application.

@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function ProductGoalPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Product Goal"
+        description="Creating a comprehensive website that combines theoretical research with practical self-improvement insights to help others overcome anxiety and build confidence."
+        path="/product-goal"
+      />
       <HeroSection title="Product Goal" />
 
       <main className="flex-1">

@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function Q12StrategiesPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q12: Everyday Strategies"
+        description="Practical, research-backed strategies for embedding self-improvement into daily life for sustainable growth and lasting transformation."
+        path="/q12-strategies"
+      />
       <HeroSection title="What strategies can be applied to everyday life to ensure long-term improvement?" />
 
       <main className="flex-1">

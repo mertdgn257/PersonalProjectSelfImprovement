@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function Q3FactorsPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q3: Factors Provoking Desire"
+        description="Examining the psychological triggers and external influences that spark the motivation to pursue personal growth and development."
+        path="/q3-factors"
+      />
       <HeroSection title="Which factors provoke the desire for self-improvement?" />
 
       <main className="flex-1">

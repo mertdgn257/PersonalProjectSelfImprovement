@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function Q8InvestmentPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q8: Long-term Investment"
+        description="Understanding how sustained personal development creates compounding benefits that lead to sustainable success over time."
+        path="/q8-long-term-investment"
+      />
       <HeroSection title="How can long-term investment into oneself lead to success?" />
 
       <main className="flex-1">

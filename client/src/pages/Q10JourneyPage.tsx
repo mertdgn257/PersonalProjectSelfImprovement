@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function Q10JourneyPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q10: My 4-Week Journey"
+        description="A personal documentation of implementing self-improvement strategies over four weeks, tracking real progress, insights, and transformative changes."
+        path="/q10-4week-journey"
+      />
       <HeroSection title="My 4-Week Self-Improvement Journey" />
 
       <main className="flex-1">

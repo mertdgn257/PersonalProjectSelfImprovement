@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function LearningGoalPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Learning Goal"
+        description="Understanding the psychology of self-improvement and its impact on overcoming anxiety and building confidence through research and personal application."
+        path="/learning-goal"
+      />
       <HeroSection title="Learning Goal" />
 
       <main className="flex-1">

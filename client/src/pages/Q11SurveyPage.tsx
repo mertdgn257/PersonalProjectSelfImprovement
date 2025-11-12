@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function Q11SurveyPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q11: Survey Results"
+        description="Insights from people's experiences with self-improvement, revealing common practices, effectiveness ratings, and challenges they face."
+        path="/q11-survey"
+      />
       <HeroSection title="Survey Results" />
 
       <main className="flex-1">

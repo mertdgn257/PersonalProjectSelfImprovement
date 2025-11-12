@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function Q2MotivationPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q2: Motivation & Success Factors"
+        description="Understanding the internal and external factors that drive individuals to pursue self-improvement and what determines their success or failure."
+        path="/q2-motivation"
+      />
       <HeroSection title="What motivates individuals to begin a self-improvement journey?" />
 
       <main className="flex-1">

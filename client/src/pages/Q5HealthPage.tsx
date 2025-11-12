@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function Q5HealthPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q5: Physical & Mental Health"
+        description="Understanding the interconnected relationship between self-improvement practices and overall physical and mental wellbeing."
+        path="/q5-health"
+      />
       <HeroSection title="How does self-improvement affect physical and mental health?" />
 
       <main className="flex-1">

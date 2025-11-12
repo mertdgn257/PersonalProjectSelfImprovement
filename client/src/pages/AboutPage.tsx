@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -5,6 +6,11 @@ import { ContentCard } from "@/components/ContentCard";
 export default function AboutPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="About This Project"
+        description="An IB Personal Project exploring self-improvement through research, personal experience, and practical application to help others overcome anxiety and build confidence."
+        path="/about"
+      />
       <HeroSection title="About This Project" />
 
       <main className="flex-1">

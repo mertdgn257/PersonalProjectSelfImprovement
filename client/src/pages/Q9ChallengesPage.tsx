@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -7,6 +8,11 @@ import { PrevNextNav } from "@/components/PrevNextNav";
 export default function Q9ChallengesPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q9: Challenges & Misconceptions"
+        description="Identifying common obstacles and misunderstandings that hinder self-improvement progress and how to overcome them effectively."
+        path="/q9-challenges"
+      />
       <HeroSection title="What are the challenges and misconceptions about self-improvement?" />
 
       <main className="flex-1">

@@ -1,3 +1,4 @@
+import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
@@ -8,6 +9,11 @@ import smallChangesImage from "@assets/generated_images/Small_changes_growth_vis
 export default function Q4SmallChangesPage() {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO
+        title="Q4: Small Changes & Long-term Growth"
+        description="Discovering how atomic habits and incremental changes compound over time to create significant transformation and lasting results."
+        path="/q4-small-changes"
+      />
       <HeroSection title="What role do small, consistent changes play in long-term growth?" backgroundImage={smallChangesImage} />
 
       <main className="flex-1">
