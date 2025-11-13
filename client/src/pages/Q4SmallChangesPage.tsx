@@ -4,7 +4,6 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
-import smallChangesImage from "@assets/generated_images/Small_changes_growth_blue_visual_da19b36d.png";
 
 export default function Q4SmallChangesPage() {
   return (
@@ -14,19 +13,13 @@ export default function Q4SmallChangesPage() {
         description="Discovering how atomic habits and incremental changes compound over time to create significant transformation and lasting results."
         path="/q4-small-changes"
       />
-      <HeroSection title="What role do small, consistent changes play in long-term growth?" backgroundImage={smallChangesImage} />
+      <HeroSection title="What role do small, consistent changes play in long-term growth?" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
-          <Breadcrumbs items={[{ label: "Questions", path: "/" }, { label: "Q4: Small Changes" }]} />
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "Q4: Small Changes" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Discovering how atomic habits and incremental changes compound over time to create significant transformation.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <p>
               Small changes are where the real magic happens. James Clear calls these "atomic habits" – tiny, repeated actions that slowly build up into big results. Doing a few minutes of meditation, reading, or exercise each day may seem minor at first, but over time, it can make a huge difference in your mental and physical health.
             </p>

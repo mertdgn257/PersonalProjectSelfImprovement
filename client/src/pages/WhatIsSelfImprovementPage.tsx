@@ -4,7 +4,6 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
-import continuousImage from "@assets/generated_images/Continuous_improvement_pattern_blue_01260808.png";
 
 export default function WhatIsSelfImprovementPage() {
   return (
@@ -14,19 +13,13 @@ export default function WhatIsSelfImprovementPage() {
         description="Exploring the fundamental concept of self-improvement as a journey of personal development through continuous, intentional change and internal psychological growth."
         path="/what-is-self-improvement"
       />
-      <HeroSection title="What is self-improvement?" backgroundImage={continuousImage} />
+      <HeroSection title="What is self-improvement?" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
-          <Breadcrumbs items={[{ label: "Questions", path: "/" }, { label: "What is self-improvement?" }]} />
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "What is self-improvement?" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Exploring the fundamental concept of self-improvement as a journey of personal development through continuous, intentional change.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <p>
               Striving for a purposeful and worthwhile life starts most often with motivation-fueled devotion to self-improvement, showcasing humanity's intrinsic desire to pursue progression and perpetual development. Whether you're looking to augment your personality, acquire new skills, refine existing skills, overcome obstacles you face on a daily basis, improve overall wellbeing and satisfaction or satiate your appetite for success, self-improvement can act as your way-finder in your personal journey to become your best self.
             </p>

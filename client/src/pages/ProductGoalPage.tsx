@@ -16,16 +16,10 @@ export default function ProductGoalPage() {
       <HeroSection title="Product Goal" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
           <Breadcrumbs items={[{ label: "Product Goal" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Creating a comprehensive website that combines theoretical research with practical self-improvement insights to help others overcome anxiety and build confidence.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <p>
               My product goal is to create an in-depth, well planned out website that delves into the concept of self-improvement. The website will consist of theoretical research, findings from books (ex. Atomic Habits by James Clear), websites, interviews, surveys, real-life implementations of self-improvement techniques, interviews with people who practice self-improvement on a daily basis. It will also include a reflection on my own personal journey of applying minor lifestyle changes—for instance lifelong habit formation, productivity techniques, mindset shifts—and analyzing their effects on my mental wellbeing, confidence and anxiety. The final product will not only present theoretical research but also practical insights gained through observation and experimentation.
             </p>

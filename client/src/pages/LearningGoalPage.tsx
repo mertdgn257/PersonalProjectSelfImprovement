@@ -16,16 +16,10 @@ export default function LearningGoalPage() {
       <HeroSection title="Learning Goal" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
           <Breadcrumbs items={[{ label: "Learning Goal" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Understanding the psychology of self-improvement and its impact on overcoming anxiety and building confidence through research and personal application.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <p>
               Ever since I was young, I was fascinated by what it really meant to sense personal fulfillment. I frequently found myself absorbed in deep thought, "What would it take to live fulfilled life as those I look up to?" From that moment forward, that question stood with me and became a mental compass in my mind, ultimately igniting my compelling passion in the psychological idea of self-improvement. As years passed by and slowly moved into early my teenage years, I was faced with the bitter yet eye-opening truth of self-awareness. Insecurities once absent started to show themselves, consequently leading to a considerable decline in my self confidence. This, sequentially became the source of my anxiety that would stay with me in the years to come. Doubting my own thoughts and questioning my mind nearly became second nature. It's been five years since anxiety found its way into my life. The mental toll it took on me caused my wellbeing to steadily deteriorate. Recently, I have decided that I no longer wanted to live under its weight, and I made a resolution to start taking steps towards overcoming it.
             </p>

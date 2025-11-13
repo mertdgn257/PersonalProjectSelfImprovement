@@ -1,5 +1,4 @@
 import { Link } from "wouter";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
 
 interface QuestionCardProps {
@@ -12,18 +11,14 @@ interface QuestionCardProps {
 export function QuestionCard({ number, title, preview, path }: QuestionCardProps) {
   return (
     <Link href={path}>
-      <Card className="h-full hover:shadow-xl transition-all duration-300 cursor-pointer hover-elevate group" data-testid={`card-question-${number.toLowerCase()}`}>
-        <CardHeader>
-          <div className="text-sm font-semibold text-primary mb-2">{number}</div>
-          <CardTitle className="font-serif text-xl">{title}</CardTitle>
-        </CardHeader>
-        <CardContent>
-          <p className="text-muted-foreground text-sm mb-4 line-clamp-3">{preview}</p>
-          <div className="flex items-center text-primary text-sm font-medium group-hover:translate-x-1 transition-transform">
-            Read more <ArrowRight className="ml-2 h-4 w-4" />
-          </div>
-        </CardContent>
-      </Card>
+      <div className="h-full p-6 border rounded-md cursor-pointer hover-elevate group transition-all" data-testid={`card-question-${number.toLowerCase()}`}>
+        <div className="text-xs font-semibold text-muted-foreground mb-2 uppercase tracking-wide">{number}</div>
+        <h3 className="font-sans text-lg font-semibold mb-3">{title}</h3>
+        <p className="text-muted-foreground text-sm mb-4 line-clamp-2">{preview}</p>
+        <div className="flex items-center text-foreground text-sm font-medium group-hover:translate-x-1 transition-transform">
+          Read more <ArrowRight className="ml-2 h-4 w-4" />
+        </div>
+      </div>
     </Link>
   );
 }

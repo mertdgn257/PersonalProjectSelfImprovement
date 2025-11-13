@@ -16,16 +16,10 @@ export default function Q2MotivationPage() {
       <HeroSection title="What motivates individuals to begin a self-improvement journey?" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
-          <Breadcrumbs items={[{ label: "Questions", path: "/" }, { label: "Q2: Motivation" }]} />
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "Q2: Motivation" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Understanding the internal and external factors that drive individuals to pursue self-improvement and what determines their success.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <p>
               People start improving themselves for all sorts of reasons, usually because they feel something is missing or not quite right in their lives. It could be anxiety, stress, or a general dissatisfaction with how things are going. Often, people notice they want better mental health, more confidence, or a greater sense of life satisfaction. Sometimes inspiration comes from seeing others succeed – mentors, celebrities, or friends who have achieved their goals – which shows how much social examples can influence motivation.
             </p>

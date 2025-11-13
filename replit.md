@@ -22,11 +22,11 @@ Preferred communication style: Simple, everyday language.
 - **Forms**: React Hook Form with Zod validation via @hookform/resolvers
 
 **Design System**:
-- Color palette: Premium Royal Blue primary (#2563eb), Premium Gray backgrounds and accents, with light/dark mode support
-- Typography: Cormorant Garamond (premium serif) for headings, Inter (sans-serif) for body text
-- Layout: 12-column responsive grid with max-width 1100-1200px
+- Color palette: Minimal black & white with subtle grays, clean and simple design
+- Typography: Inter (sans-serif) for all text - headings and body, inspired by James Clear's clean aesthetic
+- Layout: Single column with max-width 768px (max-w-3xl), content-focused design
 - Accessibility: Semantic HTML, keyboard navigation, WCAG AA contrast ratios (4.5:1)
-- Premium aesthetic with sophisticated gray tones and vibrant royal blue accents
+- Minimal aesthetic inspired by jamesclear.com - clean, readable, distraction-free
 
 **Key Components**:
 - `PageLayout`: Global wrapper with Navigation and Footer

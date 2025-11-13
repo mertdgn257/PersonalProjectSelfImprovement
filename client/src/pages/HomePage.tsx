@@ -2,8 +2,6 @@ import { Link } from "wouter";
 import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { QuestionCard } from "@/components/QuestionCard";
-import { Button } from "@/components/ui/button";
-import heroImage from "@assets/generated_images/Premium_blue_self-improvement_hero_f2c00f02.png";
 
 const questions = [
   {
@@ -88,53 +86,18 @@ export default function HomePage() {
         description="Discover how consistent, intentional changes can transform your life. Explore comprehensive research on self-improvement through 12 focused investigations."
         path="/"
       />
-      <HeroSection title="Small Steps. Real Growth." backgroundImage={heroImage}>
-        <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8" data-testid="text-hero-subhead">
-          Discover how consistent, intentional changes can transform your life through research, reflection, and practical application.
+      <HeroSection title="IB Personal Project — Self-Improvement">
+        <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-hero-subhead">
+          Small steps. Real growth. Exploring how consistent, intentional changes can transform your life.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/what-is-self-improvement">
-            <Button size="lg" data-testid="button-cta-start">
-              What is self-improvement?
-            </Button>
-          </Link>
-          <Link href="/q10-4week-journey">
-            <Button size="lg" variant="outline" className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20" data-testid="button-cta-journey">
-              4-Week Journey
-            </Button>
-          </Link>
-        </div>
       </HeroSection>
 
       <main className="flex-1">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-          <div className="text-center mb-12">
-            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4" data-testid="heading-questions">
-              Research Questions
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Explore comprehensive research on self-improvement through 12 focused investigations.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <div className="space-y-8">
             {questions.map((q) => (
               <QuestionCard key={q.number} {...q} />
             ))}
-          </div>
-
-          <div className="bg-gradient-to-r from-primary/10 to-primary/5 rounded-xl p-8 md:p-12 text-center border border-primary/20">
-            <h3 className="font-serif text-2xl md:text-3xl font-bold mb-4" data-testid="heading-cta">
-              Start Your Journey Today
-            </h3>
-            <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Try one tiny habit today: choose it, do it daily, and reflect on your progress.
-            </p>
-            <Link href="/q12-strategies">
-              <Button size="lg" data-testid="button-cta-strategies">
-                Explore Strategies
-              </Button>
-            </Link>
           </div>
         </div>
       </main>

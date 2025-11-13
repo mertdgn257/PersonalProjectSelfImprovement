@@ -14,16 +14,10 @@ export default function AboutPage() {
       <HeroSection title="About This Project" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
           <Breadcrumbs items={[{ label: "About" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              An IB Personal Project exploring self-improvement through research, personal experience, and practical application.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <h2>IB Personal Project — Self-Improvement</h2>
             <p>
               This website represents a comprehensive exploration of self-improvement, combining theoretical research with personal experience and practical strategies. Created as part of the IB Middle Years Programme (MYP) Personal Project, this work investigates how small, consistent changes in daily habits and mindset can lead to long-term positive outcomes in both physical and mental health.

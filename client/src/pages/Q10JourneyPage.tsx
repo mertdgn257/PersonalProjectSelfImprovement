@@ -16,16 +16,10 @@ export default function Q10JourneyPage() {
       <HeroSection title="My 4-Week Self-Improvement Journey" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
-          <Breadcrumbs items={[{ label: "Questions", path: "/" }, { label: "Q10: 4-Week Journey" }]} />
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "Q10: 4-Week Journey" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              A personal documentation of implementing self-improvement strategies over four weeks, tracking real progress and insights.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <h2>Week 1: Awareness and Understanding Myself</h2>
             <p>
               I began by observing my daily habits, thoughts, and emotions. I kept a journal every morning and evening, noting how I felt, what I achieved, and where I struggled. Through this, I realized that I often procrastinate, especially after checking my phone or social media after school at home. I also noticed a recurring pattern of self-doubt whenever I faced challenges at school or with my personal project.

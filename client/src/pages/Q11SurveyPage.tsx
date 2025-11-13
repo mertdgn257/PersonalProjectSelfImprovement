@@ -66,16 +66,10 @@ export default function Q11SurveyPage() {
       <HeroSection title="Survey Results" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
-          <Breadcrumbs items={[{ label: "Questions", path: "/" }, { label: "Q11: Survey" }]} />
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "Q11: Survey" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed" data-testid="text-survey-intro">
-              Results from 36 respondents sharing their experiences with self-improvement practices, effectiveness ratings, and personal insights.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <h2>Survey Overview</h2>
             <p>
               The survey captured insights from individuals at various stages of their self-improvement journey, revealing common patterns in motivation, practice, and outcomes.

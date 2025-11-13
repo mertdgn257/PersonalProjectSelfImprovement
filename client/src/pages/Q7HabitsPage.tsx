@@ -4,7 +4,6 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
-import achievementImage from "@assets/generated_images/Achievement_goals_blue_visual_68731360.png";
 
 export default function Q7HabitsPage() {
   return (
@@ -14,19 +13,13 @@ export default function Q7HabitsPage() {
         description="Analyzing the common routines, characteristics, and mindsets shared by high achievers, entrepreneurs, and successful individuals."
         path="/q7-habits"
       />
-      <HeroSection title="Habits of Successful People" backgroundImage={achievementImage} />
+      <HeroSection title="Habits of Successful People" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
-          <Breadcrumbs items={[{ label: "Questions", path: "/" }, { label: "Q7: Habits" }]} />
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "Q7: Habits" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Analyzing the common routines, characteristics, and mindsets shared by high achievers, entrepreneurs, and successful individuals.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <p>
               Research shows that high achievers tend to live highly structured, intentional lives. They have disciplined routines, often starting their days with exercise, meditation, or journaling. Continuous learning is key – many read daily or pursue new skills regularly.
             </p>

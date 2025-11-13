@@ -84,7 +84,7 @@ export default {
       },
       fontFamily: {
         sans: ["Inter", "var(--font-sans)"],
-        serif: ["Cormorant Garamond", "var(--font-serif)"],
+        serif: ["Inter", "var(--font-sans)"],
         mono: ["var(--font-mono)"],
       },
       keyframes: {

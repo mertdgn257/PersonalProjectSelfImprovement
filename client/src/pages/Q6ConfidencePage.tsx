@@ -16,16 +16,10 @@ export default function Q6ConfidencePage() {
       <HeroSection title="In what ways can self-improvement reduce insecurities and build confidence?" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
-          <Breadcrumbs items={[{ label: "Questions", path: "/" }, { label: "Q6: Confidence" }]} />
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "Q6: Confidence" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Exploring how building competence and achieving small wins transforms self-doubt into lasting confidence and resilience.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <p>
               Self-improvement directly targets insecurities by helping you gain competence and self-awareness. Setting small, achievable goals and hitting them shows you that you can succeed, which naturally boosts confidence. Tracking progress – even small wins – helps you see that growth is real, not just something you hope for.
             </p>

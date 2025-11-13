@@ -30,11 +30,11 @@ export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <nav className="w-full border-b bg-background">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">
           <Link href="/" className="flex-shrink-0">
-            <span className="font-serif text-xl font-semibold text-foreground hover-elevate active-elevate-2 rounded-md px-3 py-2" data-testid="link-home">
+            <span className="font-sans text-lg font-semibold text-foreground hover-elevate active-elevate-2 rounded-md px-3 py-2" data-testid="link-home">
               Self-Improvement
             </span>
           </Link>

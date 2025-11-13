@@ -16,16 +16,10 @@ export default function Q12StrategiesPage() {
       <HeroSection title="What strategies can be applied to everyday life to ensure long-term improvement?" />
 
       <main className="flex-1">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
-          <Breadcrumbs items={[{ label: "Questions", path: "/" }, { label: "Q12: Strategies" }]} />
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
+          <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "Q12: Strategies" }]} />
 
-          <div className="mb-8">
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Practical, research-backed strategies for embedding self-improvement into daily life for sustainable growth.
-            </p>
-          </div>
-
-          <ContentCard>
+          <ContentCard className="mt-8">
             <p>
               Applying self-improvement strategies to everyday life requires a combination of structure, consistency, and mindful reflection. Research shows that habit formation is most effective when changes are small, specific, and repeatable, rather than overwhelming or vague. James Clear emphasizes the concept of "atomic habits"—tiny, incremental changes that compound over time to produce significant long-term results. For example, committing to just 5 minutes of reading or 2 minutes of meditation daily is more sustainable than attempting a radical overhaul, yet consistency over weeks leads to lasting improvement.
             </p>
