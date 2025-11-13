@@ -76,7 +76,7 @@ export default function Q11SurveyPage() {
             </p>
           </ContentCard>
 
-          <ContentCard>
+          <ContentCard className="mt-12">
             <h2>Familiarity with Self-Improvement</h2>
             <p className="mb-6">
               Most respondents were already well-acquainted with personal development concepts, with 73% reporting they were quite or extremely familiar with the topic.
@@ -104,7 +104,7 @@ export default function Q11SurveyPage() {
             </div>
           </ContentCard>
 
-          <ContentCard>
+          <ContentCard className="mt-12">
             <h2>Perceived Importance</h2>
             <p className="mb-6">
               An overwhelming majority (92%) rated personal development as very important or essential to living a satisfying life.
@@ -122,7 +122,7 @@ export default function Q11SurveyPage() {
             </div>
           </ContentCard>
 
-          <ContentCard>
+          <ContentCard className="mt-12">
             <h2>Practice Adoption</h2>
             <p className="mb-6">
               Nearly all respondents (97%) actively practice self-improvement techniques in their daily lives, demonstrating widespread adoption of personal development habits.
@@ -150,7 +150,7 @@ export default function Q11SurveyPage() {
             </div>
           </ContentCard>
 
-          <ContentCard>
+          <ContentCard className="mt-12">
             <h2>Consistency Levels</h2>
             <p className="mb-6">
               Most respondents (58%) maintain moderate consistency with their self-improvement practices, while 25% report being quite consistent, and 6% have fully integrated these habits into their lifestyle.
@@ -168,7 +168,7 @@ export default function Q11SurveyPage() {
             </div>
           </ContentCard>
 
-          <ContentCard>
+          <ContentCard className="mt-12">
             <h2>Most Important Development Areas</h2>
             <p className="mb-6">
               When asked to identify the most important areas for personal development, respondents prioritized mental wellbeing, emotional balance, and productivity.
@@ -186,7 +186,7 @@ export default function Q11SurveyPage() {
             </div>
           </ContentCard>
 
-          <ContentCard>
+          <ContentCard className="mt-12">
             <h2>Effectiveness Ratings</h2>
             <p className="mb-6">
               Participants rated how effective their self-improvement habits were across different life areas on a scale of 1-5. All categories scored highly, averaging between 3.7-3.9.
@@ -210,7 +210,7 @@ export default function Q11SurveyPage() {
             </div>
           </ContentCard>
 
-          <ContentCard>
+          <ContentCard className="mt-12">
             <h2>Impact on Confidence & Anxiety</h2>
             <p className="mb-6">
               97% of respondents reported noticeable improvements in confidence levels and reductions in anxiety after implementing self-improvement practices.
@@ -238,7 +238,7 @@ export default function Q11SurveyPage() {
             </div>
           </ContentCard>
 
-          <ContentCard>
+          <ContentCard className="mt-12">
             <h2>Common Challenges</h2>
             <p>
               While most participants found success with their self-improvement journey, they identified several recurring obstacles:
@@ -252,7 +252,7 @@ export default function Q11SurveyPage() {
             </ul>
           </ContentCard>
 
-          <ContentCard>
+          <ContentCard className="mt-12">
             <h2>Key Insights</h2>
             <h3>What Motivates People?</h3>
             <p>
