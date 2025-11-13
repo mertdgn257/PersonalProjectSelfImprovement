@@ -198,10 +198,16 @@ export default function Q11SurveyPage() {
               Participants rated how effective their self-improvement habits were across different life areas on a scale of 1-5. All categories scored highly, averaging between 3.7-3.9.
             </p>
             <div data-testid="chart-effectiveness">
-              <ResponsiveContainer width="100%" height={300}>
-                <BarChart data={effectivenessData}>
+              <ResponsiveContainer width="100%" height={350}>
+                <BarChart data={effectivenessData} margin={{ bottom: 60 }}>
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="category" />
+                  <XAxis 
+                    dataKey="category" 
+                    angle={-45} 
+                    textAnchor="end" 
+                    height={80}
+                    interval={0}
+                  />
                   <YAxis domain={[0, 5]} />
                   <Tooltip />
                   <Legend />
