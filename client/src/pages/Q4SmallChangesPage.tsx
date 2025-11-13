@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
-import smallChangesImage from "@assets/generated_images/Small_changes_growth_visual_d60e04e0.png";
+import smallChangesImage from "@assets/generated_images/Small_changes_growth_blue_visual_da19b36d.png";
 
 export default function Q4SmallChangesPage() {
   return (

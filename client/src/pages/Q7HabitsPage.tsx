@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
-import achievementImage from "@assets/generated_images/Achievement_and_goals_visual_82990107.png";
+import achievementImage from "@assets/generated_images/Achievement_goals_blue_visual_68731360.png";
 
 export default function Q7HabitsPage() {
   return (

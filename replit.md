@@ -23,7 +23,7 @@ Preferred communication style: Simple, everyday language.
 
 **Design System**:
 - Color palette: Premium Royal Blue primary (#2563eb), Premium Gray backgrounds and accents, with light/dark mode support
-- Typography: Playfair Display (serif) for headings, Inter (sans-serif) for body text
+- Typography: Cormorant Garamond (premium serif) for headings, Inter (sans-serif) for body text
 - Layout: 12-column responsive grid with max-width 1100-1200px
 - Accessibility: Semantic HTML, keyboard navigation, WCAG AA contrast ratios (4.5:1)
 - Premium aesthetic with sophisticated gray tones and vibrant royal blue accents

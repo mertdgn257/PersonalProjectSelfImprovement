@@ -3,7 +3,7 @@ import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { QuestionCard } from "@/components/QuestionCard";
 import { Button } from "@/components/ui/button";
-import heroImage from "@assets/generated_images/Self-improvement_journey_hero_image_07a0257b.png";
+import heroImage from "@assets/generated_images/Premium_blue_self-improvement_hero_f2c00f02.png";
 
 const questions = [
   {

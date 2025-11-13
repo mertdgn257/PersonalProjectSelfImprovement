@@ -12,8 +12,8 @@ export function HeroSection({ title, backgroundImage, children }: HeroSectionPro
       className="relative w-full min-h-[300px] md:min-h-[400px] flex items-center justify-center overflow-hidden"
       style={{
         backgroundImage: backgroundImage
-          ? `linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(31, 41, 55, 0.75) 100%), url(${backgroundImage})`
-          : 'linear-gradient(135deg, hsl(222, 47%, 11%) 0%, hsl(217, 19%, 17%) 100%)',
+          ? `linear-gradient(135deg, rgba(37, 99, 235, 0.88) 0%, rgba(30, 41, 59, 0.82) 100%), url(${backgroundImage})`
+          : 'linear-gradient(135deg, hsl(221, 83%, 53%) 0%, hsl(220, 13%, 18%) 100%)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}

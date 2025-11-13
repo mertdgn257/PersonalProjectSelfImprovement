@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
-import continuousImage from "@assets/generated_images/Continuous_improvement_pattern_3580af21.png";
+import continuousImage from "@assets/generated_images/Continuous_improvement_pattern_blue_01260808.png";
 
 export default function WhatIsSelfImprovementPage() {
   return (
