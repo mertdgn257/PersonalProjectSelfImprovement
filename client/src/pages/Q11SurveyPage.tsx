@@ -199,7 +199,7 @@ export default function Q11SurveyPage() {
             </p>
             <div data-testid="chart-effectiveness">
               <ResponsiveContainer width="100%" height={350}>
-                <BarChart data={effectivenessData} margin={{ bottom: 60 }}>
+                <BarChart data={effectivenessData} margin={{ bottom: 60, top: 10 }}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis 
                     dataKey="category" 
@@ -208,10 +208,9 @@ export default function Q11SurveyPage() {
                     height={80}
                     interval={0}
                   />
-                  <YAxis domain={[0, 5]} />
+                  <YAxis domain={[0, 5]} label={{ value: 'Rating (1-5)', angle: -90, position: 'insideLeft' }} />
                   <Tooltip />
-                  <Legend />
-                  <Bar dataKey="rating" fill="#0EA5A4" name="Average Rating (out of 5)" />
+                  <Bar dataKey="rating" fill="#0EA5A4" />
                 </BarChart>
               </ResponsiveContainer>
             </div>
