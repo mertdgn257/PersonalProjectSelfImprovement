@@ -94,7 +94,7 @@ export default function HomePage() {
 
       <main className="flex-1">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
-          <div className="space-y-12">
+          <div className="flex flex-col gap-8">
             {questions.map((q) => (
               <QuestionCard key={q.number} {...q} />
             ))}
