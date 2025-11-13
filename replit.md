@@ -120,3 +120,16 @@ The site follows a strict page structure with 15 distinct routes:
 - About
 
 Each research question page includes hero section, breadcrumbs, content card, key takeaway, and prev/next navigation for seamless browsing experience.
+
+### Data Visualization
+- **Q11 Survey Results Page**: Features 7 interactive charts built with Recharts library displaying survey data from 36 respondents
+  - Familiarity levels with self-improvement concepts (pie chart)
+  - Perceived importance ratings (bar chart)
+  - Practice adoption rates (pie chart)
+  - Consistency levels in maintaining habits (bar chart)
+  - Most important development areas (horizontal bar chart)
+  - Effectiveness ratings across 5 categories (bar chart with 1-5 scale)
+  - Impact on confidence and anxiety reduction (pie chart)
+- Survey data translated from Turkish to English with accurate counts, percentages, and insights
+- Responsive chart containers adapt to all screen sizes
+- Additional narrative sections cover common challenges, motivations, popular practices, and advice for beginners

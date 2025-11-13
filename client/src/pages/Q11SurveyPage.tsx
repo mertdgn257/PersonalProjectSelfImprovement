@@ -87,25 +87,27 @@ export default function Q11SurveyPage() {
             <p className="mb-6">
               Most respondents were already well-acquainted with personal development concepts, with 73% reporting they were quite or extremely familiar with the topic.
             </p>
-            <ResponsiveContainer width="100%" height={300} data-testid="chart-familiarity">
-              <PieChart>
-                <Pie
-                  data={familiarityData}
-                  cx="50%"
-                  cy="50%"
-                  labelLine={false}
-                  label={({ name, percentage }) => `${name}: ${percentage}`}
-                  outerRadius={100}
-                  fill="#8884d8"
-                  dataKey="value"
-                >
-                  {familiarityData.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
+            <div data-testid="chart-familiarity">
+              <ResponsiveContainer width="100%" height={300}>
+                <PieChart>
+                  <Pie
+                    data={familiarityData}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    label={({ name, percentage }) => `${name}: ${percentage}`}
+                    outerRadius={100}
+                    fill="#8884d8"
+                    dataKey="value"
+                  >
+                    {familiarityData.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    ))}
+                  </Pie>
+                  <Tooltip />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
           </ContentCard>
 
           <ContentCard>
@@ -113,15 +115,17 @@ export default function Q11SurveyPage() {
             <p className="mb-6">
               An overwhelming majority (92%) rated personal development as very important or essential to living a satisfying life.
             </p>
-            <ResponsiveContainer width="100%" height={300} data-testid="chart-importance">
-              <BarChart data={importanceData}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Bar dataKey="value" fill="#0EA5A4" />
-              </BarChart>
-            </ResponsiveContainer>
+            <div data-testid="chart-importance">
+              <ResponsiveContainer width="100%" height={300}>
+                <BarChart data={importanceData}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="name" />
+                  <YAxis />
+                  <Tooltip />
+                  <Bar dataKey="value" fill="#0EA5A4" />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </ContentCard>
 
           <ContentCard>
@@ -129,25 +133,27 @@ export default function Q11SurveyPage() {
             <p className="mb-6">
               Nearly all respondents (97%) actively practice self-improvement techniques in their daily lives, demonstrating widespread adoption of personal development habits.
             </p>
-            <ResponsiveContainer width="100%" height={300} data-testid="chart-adoption">
-              <PieChart>
-                <Pie
-                  data={practiceAdoptionData}
-                  cx="50%"
-                  cy="50%"
-                  labelLine={false}
-                  label={({ name, percentage }) => `${name}: ${percentage}`}
-                  outerRadius={100}
-                  fill="#8884d8"
-                  dataKey="value"
-                >
-                  {practiceAdoptionData.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
+            <div data-testid="chart-adoption">
+              <ResponsiveContainer width="100%" height={300}>
+                <PieChart>
+                  <Pie
+                    data={practiceAdoptionData}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    label={({ name, percentage }) => `${name}: ${percentage}`}
+                    outerRadius={100}
+                    fill="#8884d8"
+                    dataKey="value"
+                  >
+                    {practiceAdoptionData.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    ))}
+                  </Pie>
+                  <Tooltip />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
           </ContentCard>
 
           <ContentCard>
@@ -155,15 +161,17 @@ export default function Q11SurveyPage() {
             <p className="mb-6">
               Most respondents (58%) maintain moderate consistency with their self-improvement practices, while 25% report being quite consistent, and 6% have fully integrated these habits into their lifestyle.
             </p>
-            <ResponsiveContainer width="100%" height={300} data-testid="chart-consistency">
-              <BarChart data={consistencyData}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Bar dataKey="value" fill="#0F172A" />
-              </BarChart>
-            </ResponsiveContainer>
+            <div data-testid="chart-consistency">
+              <ResponsiveContainer width="100%" height={300}>
+                <BarChart data={consistencyData}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="name" />
+                  <YAxis />
+                  <Tooltip />
+                  <Bar dataKey="value" fill="#0F172A" />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </ContentCard>
 
           <ContentCard>
@@ -171,15 +179,17 @@ export default function Q11SurveyPage() {
             <p className="mb-6">
               When asked to identify the most important areas for personal development, respondents prioritized mental wellbeing, emotional balance, and productivity.
             </p>
-            <ResponsiveContainer width="100%" height={350} data-testid="chart-areas">
-              <BarChart data={topAreasData} layout="vertical">
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis type="number" />
-                <YAxis dataKey="area" type="category" width={150} />
-                <Tooltip />
-                <Bar dataKey="count" fill="#0F172A" />
-              </BarChart>
-            </ResponsiveContainer>
+            <div data-testid="chart-areas">
+              <ResponsiveContainer width="100%" height={350}>
+                <BarChart data={topAreasData} layout="vertical">
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis type="number" />
+                  <YAxis dataKey="area" type="category" width={150} />
+                  <Tooltip />
+                  <Bar dataKey="count" fill="#0F172A" />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </ContentCard>
 
           <ContentCard>
@@ -187,16 +197,18 @@ export default function Q11SurveyPage() {
             <p className="mb-6">
               Participants rated how effective their self-improvement habits were across different life areas on a scale of 1-5. All categories scored highly, averaging between 3.7-3.9.
             </p>
-            <ResponsiveContainer width="100%" height={300} data-testid="chart-effectiveness">
-              <BarChart data={effectivenessData}>
-                <CartesianGrid strokeDasharray="3 3" />
-                <XAxis dataKey="category" />
-                <YAxis domain={[0, 5]} />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="rating" fill="#0EA5A4" name="Average Rating (out of 5)" />
-              </BarChart>
-            </ResponsiveContainer>
+            <div data-testid="chart-effectiveness">
+              <ResponsiveContainer width="100%" height={300}>
+                <BarChart data={effectivenessData}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="category" />
+                  <YAxis domain={[0, 5]} />
+                  <Tooltip />
+                  <Legend />
+                  <Bar dataKey="rating" fill="#0EA5A4" name="Average Rating (out of 5)" />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
           </ContentCard>
 
           <ContentCard>
@@ -204,25 +216,27 @@ export default function Q11SurveyPage() {
             <p className="mb-6">
               97% of respondents reported noticeable improvements in confidence levels and reductions in anxiety after implementing self-improvement practices.
             </p>
-            <ResponsiveContainer width="100%" height={300} data-testid="chart-impact">
-              <PieChart>
-                <Pie
-                  data={impactData}
-                  cx="50%"
-                  cy="50%"
-                  labelLine={false}
-                  label={({ name, percentage }) => `${name}: ${percentage}`}
-                  outerRadius={100}
-                  fill="#8884d8"
-                  dataKey="value"
-                >
-                  {impactData.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                  ))}
-                </Pie>
-                <Tooltip />
-              </PieChart>
-            </ResponsiveContainer>
+            <div data-testid="chart-impact">
+              <ResponsiveContainer width="100%" height={300}>
+                <PieChart>
+                  <Pie
+                    data={impactData}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    label={({ name, percentage }) => `${name}: ${percentage}`}
+                    outerRadius={100}
+                    fill="#8884d8"
+                    dataKey="value"
+                  >
+                    {impactData.map((entry, index) => (
+                      <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    ))}
+                  </Pie>
+                  <Tooltip />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
           </ContentCard>
 
           <ContentCard>
