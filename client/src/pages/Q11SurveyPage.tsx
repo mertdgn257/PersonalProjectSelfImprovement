@@ -53,7 +53,7 @@ const consistencyData = [
   { name: 'Occasionally Try', value: 4 },
 ];
 
-const COLORS = ['#0EA5A4', '#0F172A', '#64748b', '#94a3b8'];
+const COLORS = ['#2563eb', '#1e293b', '#64748b', '#94a3b8'];
 
 export default function Q11SurveyPage() {
   return (
@@ -122,7 +122,7 @@ export default function Q11SurveyPage() {
                   <XAxis dataKey="name" />
                   <YAxis />
                   <Tooltip />
-                  <Bar dataKey="value" fill="#0EA5A4" />
+                  <Bar dataKey="value" fill="#2563eb" />
                 </BarChart>
               </ResponsiveContainer>
             </div>
@@ -168,7 +168,7 @@ export default function Q11SurveyPage() {
                   <XAxis dataKey="name" />
                   <YAxis />
                   <Tooltip />
-                  <Bar dataKey="value" fill="#0F172A" />
+                  <Bar dataKey="value" fill="#1e293b" />
                 </BarChart>
               </ResponsiveContainer>
             </div>
@@ -186,7 +186,7 @@ export default function Q11SurveyPage() {
                   <XAxis type="number" />
                   <YAxis dataKey="area" type="category" width={150} />
                   <Tooltip />
-                  <Bar dataKey="count" fill="#0F172A" />
+                  <Bar dataKey="count" fill="#1e293b" />
                 </BarChart>
               </ResponsiveContainer>
             </div>
@@ -210,7 +210,7 @@ export default function Q11SurveyPage() {
                   />
                   <YAxis domain={[0, 5]} label={{ value: 'Rating (1-5)', angle: -90, position: 'insideLeft' }} />
                   <Tooltip />
-                  <Bar dataKey="rating" fill="#0EA5A4" />
+                  <Bar dataKey="rating" fill="#2563eb" />
                 </BarChart>
               </ResponsiveContainer>
             </div>
