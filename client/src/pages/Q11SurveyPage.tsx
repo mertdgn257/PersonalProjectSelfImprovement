@@ -41,6 +41,18 @@ const impactData = [
   { name: 'No Change', value: 1, percentage: '3%' },
 ];
 
+const practiceAdoptionData = [
+  { name: 'Yes, I Practice', value: 35, percentage: '97%' },
+  { name: 'No', value: 1, percentage: '3%' },
+];
+
+const consistencyData = [
+  { name: 'Lifestyle Integration', value: 2 },
+  { name: 'Quite Consistent', value: 9 },
+  { name: 'Moderately Consistent', value: 21 },
+  { name: 'Occasionally Try', value: 4 },
+];
+
 const COLORS = ['#0EA5A4', '#0F172A', '#64748b', '#94a3b8'];
 
 export default function Q11SurveyPage() {
@@ -108,6 +120,48 @@ export default function Q11SurveyPage() {
                 <YAxis />
                 <Tooltip />
                 <Bar dataKey="value" fill="#0EA5A4" />
+              </BarChart>
+            </ResponsiveContainer>
+          </ContentCard>
+
+          <ContentCard>
+            <h2>Practice Adoption</h2>
+            <p className="mb-6">
+              Nearly all respondents (97%) actively practice self-improvement techniques in their daily lives, demonstrating widespread adoption of personal development habits.
+            </p>
+            <ResponsiveContainer width="100%" height={300} data-testid="chart-adoption">
+              <PieChart>
+                <Pie
+                  data={practiceAdoptionData}
+                  cx="50%"
+                  cy="50%"
+                  labelLine={false}
+                  label={({ name, percentage }) => `${name}: ${percentage}`}
+                  outerRadius={100}
+                  fill="#8884d8"
+                  dataKey="value"
+                >
+                  {practiceAdoptionData.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                  ))}
+                </Pie>
+                <Tooltip />
+              </PieChart>
+            </ResponsiveContainer>
+          </ContentCard>
+
+          <ContentCard>
+            <h2>Consistency Levels</h2>
+            <p className="mb-6">
+              Most respondents (58%) maintain moderate consistency with their self-improvement practices, while 25% report being quite consistent, and 6% have fully integrated these habits into their lifestyle.
+            </p>
+            <ResponsiveContainer width="100%" height={300} data-testid="chart-consistency">
+              <BarChart data={consistencyData}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis />
+                <Tooltip />
+                <Bar dataKey="value" fill="#0F172A" />
               </BarChart>
             </ResponsiveContainer>
           </ContentCard>
