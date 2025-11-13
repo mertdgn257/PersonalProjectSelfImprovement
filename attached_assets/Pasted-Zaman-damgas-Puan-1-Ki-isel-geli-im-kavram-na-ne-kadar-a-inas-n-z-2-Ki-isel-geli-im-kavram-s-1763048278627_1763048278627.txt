@@ -1,0 +1,136 @@
+Zaman damgası	Puan	1.) Kişisel gelişim kavramına ne kadar aşinasınız?	"2.) Kişisel gelişim kavramı sizin için ne ifade ediyor? (Kısa Yanıt)
+"	3.) Sizce kişisel gelişimde en önemli alanlar hangileridir? (En fazla 3 seçenek işaretleyiniz)	4.) Sizce kişisel gelişim, tatmin edici bir yaşam için ne kadar önemlidir	5.) Günlük yaşamınızda küçük değişiklikler veya belirli alışkanlıklar (örneğin: günlük tutmak, egzersiz yapmak, meditasyon, okuma vb.) aracılığıyla kendinizi geliştirmeyi denediniz mi?	6.) Eğer evet ise, kişisel gelişim yolculuğunuza başlamanızı ne motive etti? (Kısa Yanıt)	7.) Hangi alanlarda kendinizi geliştirmeyi denediniz? (Birden fazla seçebilirsiniz)	8.) Küçük kişisel gelişim tekniklerini uygulamada ne kadar tutarlısınız?	9.) Kişisel gelişim alışkanlıklarının aşağıdaki alanlarda ne kadar etkili olduğunu düşünüyorsunuz? (1 = Hiç etkili değil, 5 = Çok etkili) [Zihinsel sağlık]	9.) Kişisel gelişim alışkanlıklarının aşağıdaki alanlarda ne kadar etkili olduğunu düşünüyorsunuz? (1 = Hiç etkili değil, 5 = Çok etkili) [Özgüven ve benlik saygısı]	9.) Kişisel gelişim alışkanlıklarının aşağıdaki alanlarda ne kadar etkili olduğunu düşünüyorsunuz? (1 = Hiç etkili değil, 5 = Çok etkili) [Günlük üretkenlik]	9.) Kişisel gelişim alışkanlıklarının aşağıdaki alanlarda ne kadar etkili olduğunu düşünüyorsunuz? (1 = Hiç etkili değil, 5 = Çok etkili) [Stres ve kaygı düzeyi]	9.) Kişisel gelişim alışkanlıklarının aşağıdaki alanlarda ne kadar etkili olduğunu düşünüyorsunuz? (1 = Hiç etkili değil, 5 = Çok etkili) [Genel mutluluk ve yaşam memnuniyeti]	10.) Küçük ve düzenli alışkanlıkların (örneğin: erken kalkmak, günlük tutmak, her gün okumak) zamanla düşünce yapınızı nasıl etkilediğini düşünüyorsunuz? (Kısa Yanıt)	11.) Günlük küçük gelişim alışkanlıklarını uygulamaya başladıktan sonra özgüveninizde veya kaygı düzeyinizde bir iyileşme fark ettiniz mi?	12.) Kişisel gelişimde süreklilik sağlamaya çalışırken karşılaştığınız en büyük zorluklar nelerdir? (Kısa Yanıt)	13.) Sizce kişisel gelişim hakkında insanların sıkça sahip olduğu yanlış kanılar nelerdir? (Kısa Yanıt)	14.) Sizce kişisel gelişim daha çok içsel büyümeye (zihinsel huzur, özgüven, farkındalık) mi yoksa dışsal başarıya (zenginlik, tanınma, üretkenlik) mı odaklanmalıdır?	15.) Kişisel gelişim yolculuğuna başlamak isteyen birine ne tavsiye verirsiniz? (Kısa Yanıt)	16.) Kişisel gelişimi tek bir kelimeyle tanımlamak gerekseydi, hangi kelimeyi seçerdiniz? (Açık Uçlu Yanıt)						
+10.11.2025 21:37:52		Son derece aşinayım	hayatta kendime katacagim yeni yetenekler ve ruhsal gelisimim dahil uyumlanma sureci 	Üretkenlik ve disiplin, Sosyal ilişkiler ve iletişim, Özgüven ve duygusal denge	Hayati / vazgeçilemez	Evet	hayatima farkli yon vermek istedim 	Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Sosyal ve iletişim becerileri	Oldukça tutarlıyım	5	5	5	5	5	pozitif etkisi oldu 	Evet, belirgin bir şekilde	degisime direnc gösterme	korkulari olmasi 	Her ikisine eşit şekilde	korkma,yeni hayatın seni bekliyor	değişim 						
+10.11.2025 21:37:55		Oldukça aşinayım	Kişisel farkındalık ve ilerleme	Zihinsel sağlık ve düşünce yapısı, Sosyal ilişkiler ve iletişim, Özgüven ve duygusal denge	Çok önemli	Evet	İş yaşamında karşıma çıkan zorlukları sorgulamak	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı, Sosyal ve iletişim becerileri	Orta derecede tutarlıyım	4	5	4	5	5	Düzen ve stres/kaygı azaltıyor	Evet, hafif şekilde	Düzenli takip, sürekli farkındalık	Okudum anladım tamamım 	Her ikisine eşit şekilde	Kendini tanı önce kendini anla neyi neden yapıyorsun	Yaren						
+10.11.2025 21:38:28		Oldukça aşinayım	Aydınlanma kendini bulma yolculuğu	Manevi veya felsefi gelişim	Hayati / vazgeçilemez	Evet	Bir çok şeyi sorgulamaya başlatan kitaplar 	Sosyal ve iletişim becerileri	Orta derecede tutarlıyım	4	4	4	4	4	Gelişmeye devam etme isteği bilgiye açlık.Genişletiyor	Evet, belirgin bir şekilde	Çevresel faktörler 	Spritüel anlamda anlamaları	İçsel büyüme	Bazı kitaplar öneririm	Aydınlanma						
+10.11.2025 21:38:36		Oldukça aşinayım	Hersey olmazsa olmaz 	Zihinsel sağlık ve düşünce yapısı, Özgüven ve duygusal denge, Manevi veya felsefi gelişim	Çok önemli	Evet	Yaşadığım deneyimler 	Özgüven ve benlik saygısı, Üretkenlik ve odaklanma, Sosyal ve iletişim becerileri	Oldukça tutarlıyım	4	4	4	4	4	Olumlu 	Evet, belirgin bir şekilde	İstikrar 	Yapamam düşüncesi 	İçsel büyüme	Korkmadan ilk adımı at	Kendinin için adım at						
+10.11.2025 21:45:12		Orta düzeyde aşinayım	fiziksel sağlık form meditasyon	Zihinsel sağlık ve düşünce yapısı, Fiziksel sağlık ve form, Özgüven ve duygusal denge	Çok önemli	Evet	Günlük yaşamın stresi 	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı	Oldukça tutarlıyım	4	4	3	4	3	Daha mutlu ve sağlıklı özgüvenli hissediyorum 	Evet, belirgin bir şekilde	Çalışırken zaman yaratma 	Kişisel gelişimin faydalarına inanmama	Her ikisine eşit şekilde	Süreklilik ve motivasyon 	Farkındalıl						
+10.11.2025 21:45:23		Orta düzeyde aşinayım	Bireyin yeteneklerini maksimum düzeyde ortaya çıkarmak için geçirdiği süreç.	Zihinsel sağlık ve düşünce yapısı, Fiziksel sağlık ve form, Üretkenlik ve disiplin	Çok önemli	Evet	Sağlık koşullarını iyileştirmek.	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık)	Orta derecede tutarlıyım	4	4	4	4	4	Olumlu yönde etkiliyor.	Evet, belirgin bir şekilde	Zaman planlaması	Sonuç alınacağına olan inançsızlıkları.	Her ikisine eşit şekilde	Ciddiyet istikrar	Potansiyel becerilerin ortaya çıkması.						
+10.11.2025 21:56:26		Orta düzeyde aşinayım	Potansiyeline ulaşma çabası	Zihinsel sağlık ve düşünce yapısı, Sosyal ilişkiler ve iletişim, Özgüven ve duygusal denge	Çok önemli	Evet	Değişim isteği	Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı, Sosyal ve iletişim becerileri	Orta derecede tutarlıyım	4	4	4	5	4	Disiplin ve motivasyon	Evet, belirgin bir şekilde	İnancını yitirmek	Dışsal motivasyon ile yapmaya çalışmak	İçsel büyüme	Kendine odaklanması ve değişme isteğini gerçekten istemesi	Kendinin farkına varmak						
+10.11.2025 21:58:27		Son derece aşinayım	Kendini tanıma, kendini geliştirme	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Özgüven ve duygusal denge	Çok önemli	Evet	Sağlık, mutluluk	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı	Orta derecede tutarlıyım	4	4	3	3	4	Daha sakin ve güvenli oluyorum	Evet, belirgin bir şekilde	Yapmama isteği	Fayd getirmeyeceğini düşünmeleri	İçsel büyüme	Sabır ve disiplin	Gelişim						
+10.11.2025 22:03:10		Oldukça aşinayım	Kendini tanıma ve geliştirme	Zihinsel sağlık ve düşünce yapısı, Fiziksel sağlık ve form, Sosyal ilişkiler ve iletişim	Orta derecede önemli	Evet		Fiziksel sağlık (egzersiz, beslenme)	Orta derecede tutarlıyım	3	2	2	2	4	Olumlu	Evet, hafif şekilde	Motivasyon		Her ikisine eşit şekilde								
+10.11.2025 22:06:30		Son derece aşinayım	Yaşadığımız hayatı deneyimler olarak algılayıp, kendimize farkındalık yaratmamızı sağlayıp, gelişmeye devam etmek	Üretkenlik ve disiplin, Özgüven ve duygusal denge, Manevi veya felsefi gelişim	Çok önemli	Evet	Yaşlanıyor olduğumu fark etmem	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı	Bu alışkanlıkları yaşam tarzımın bir parçası haline getirdim	5	5	4	5	5	Küçük hedeflere ulaştıkça büyük hedefe yaklaştığımı deneyimledim ve bu beni olumlu anlamda geliştirdi	Evet, belirgin bir şekilde	Zaman yönetimi 	Bir moda gibi yaklaşmaları	İçsel büyüme	Kendine inanmasını	Farkındalık						
+10.11.2025 22:09:52		Son derece aşinayım	Kişinin bir beceri yönünü yada benliğini geliştirme isteği	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Finansal ve kariyer gelişimi	Orta derecede önemli	Evet	Kendimi iyi hissetmek biri tarafından onaylanma gereksinimi duymadım ve bazı kişisel gelişim içim aldığım eğitimleri kariyerime de yansıttım	Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Kariyerime de etki eden eğitimler	Ara sıra denerim	2	2	2	2	3	Uyku düzeni kilo vermeme de yardımcı oldu. Günü verimli olmama da yardımcı oldu	Evet, hafif şekilde	Üşenmem, zaman ayırmayı öğrenmek ve ertelemek ☺️	Zorunda olduğu için yaptığını sanmak.aslında keyif aldığımızı anlayamamaları	Her ikisine eşit şekilde	Hayatında neyi değiştirmek yada neyden mutsuz olduğuna bakarak bir yol haritası çizebilirler	Başarı						
+10.11.2025 22:40:12		Oldukça aşinayım	Doğru geliştiğinde olgun kişiliği 	Zihinsel sağlık ve düşünce yapısı, Sosyal ilişkiler ve iletişim, Özgüven ve duygusal denge	Çok önemli	Evet	Daha iyi bir yaşam kalitesi arzusu	Fiziksel sağlık (egzersiz, beslenme), Üretkenlik ve odaklanma	Orta derecede tutarlıyım	2	3	4	3	4	Sadece daha disiplinli olabildim şimdilik	Evet, hafif şekilde	Tembelliğim	Bu her bireyde kültür seviyesi oranında değişir 	Her ikisine eşit şekilde	Kendimi geliştirdiğime inandığımda tavsiye verebilirim	Bilgelik						
+10.11.2025 22:47:04		Orta düzeyde aşinayım	Kendinin daha iyi bir versiyonuna evrilmek	Zihinsel sağlık ve düşünce yapısı, Özgüven ve duygusal denge, Manevi veya felsefi gelişim	Çok önemli	Hayır		Fiziksel sağlık (egzersiz, beslenme)	Ara sıra denerim	4	4	3	3	3	Pozitif	Evet, hafif şekilde	Vakitsizlik		İçsel büyüme	Tutarlılık	Evrilme						
+10.11.2025 22:53:43		Son derece aşinayım	Kendimi tanıyarak ve aynı zamanda öğrenerek bilinçli bir şekilde geliştirmek.	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Özgüven ve duygusal denge	Çok önemli	Evet	Çevrem ile gelişen düşünce yapısı ve kendi iradem ve tutkum	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı, Üretkenlik ve odaklanma, Sosyal ve iletişim becerileri, Düşünme	Bu alışkanlıkları yaşam tarzımın bir parçası haline getirdim	3	3	3	3	3	Disiplini güçlendirdiğini düşünüyorum.	Evet, belirgin bir şekilde	Yoktu ama olabilirdi	Kavramı net bilmemeleri	Her ikisine eşit şekilde	Disiplin ve irade	İrade						
+10.11.2025 22:54:32		Son derece aşinayım	evrim	Zihinsel sağlık ve düşünce yapısı, Özgüven ve duygusal denge, Manevi veya felsefi gelişim	Hayati / vazgeçilemez	Evet	sevdiklerim	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık)	Orta derecede tutarlıyım	3	3	2	2	3	olumlu yonde	Evet, hafif şekilde	degisime direnis	zor oldugu	İçsel büyüme	adim at	evrim						
+10.11.2025 23:23:09		Orta düzeyde aşinayım	Hayatı yorumlamak	Fiziksel sağlık ve form, Sosyal ilişkiler ve iletişim	Orta derecede önemli	Evet	Daha iyi bir birey olmak	Fiziksel sağlık (egzersiz, beslenme)	Ara sıra denerim	5	3	4	4	3	Olumlu etkilediğini düşünüyorum 	Evet, belirgin bir şekilde	Günlük alışkanlıklarda vazgeçme 	Etkili olduğunu düşünmeme	İçsel büyüme	Hemen başlamasını 	Mutluluk 						
+10.11.2025 23:58:43		Orta düzeyde aşinayım	Kendini şu andaki halinden daha iyi bir versiyona taşımak 	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Özgüven ve duygusal denge	Hayati / vazgeçilemez	Evet	Kendi içsel yolculuğumu tanımlamak isteğim  	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı, Üretkenlik ve odaklanma	Orta derecede tutarlıyım	5	5	5	5	5	Konsantrasyon ve üretimi arttırdığını düşünüyorum,	Evet, belirgin bir şekilde	Egom ile başa çıkmak . 	Gereksiz olduğunu , bir anlamı olmadığını .	Her ikisine eşit şekilde	Hemen şu anda kendin için iyi bir şey yap ve başla!!	Işıldamak						
+11.11.2025 00:10:31		Az aşinayım	Değişim	Zihinsel sağlık ve düşünce yapısı, Sosyal ilişkiler ve iletişim, Finansal ve kariyer gelişimi	Orta derecede önemli	Evet	Spor ve meditasyon	Fiziksel sağlık (egzersiz, beslenme), Finans	Orta derecede tutarlıyım	3	3	2	4	4	Hergün okumak	Evet, hafif şekilde	Çevre faktörü	Yapamayacağı kanısı ve vazgeçiş	Dışsal başarı	Kulakları tıka kendini düşüncene ver . 	Değişim						
+11.11.2025 00:17:51		Oldukça aşinayım	Kişinin kendisini olduğundan daha iyi hale getirmek için aldığı aksiyon	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Özgüven ve duygusal denge	Çok önemli	Evet	Hayattaki hedefimin ne olduğunu bulma arzusu	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Sosyal ve iletişim becerileri	Orta derecede tutarlıyım	3	3	3	2	2	Üretkenliğimi artırıyor ve özgüven sağlıyor	Evet, belirgin bir şekilde	Diğer sorumluluklarım sebebiyle aksama yaşıyorum	Kendi yaşam ve yetişme tarzlarının zıddı bir yaşam tarzı edinmeye çalışmaları	İçsel büyüme	Disiplinli olmak ve küçük hedeflerle başlamak	Değişim						
+11.11.2025 00:20:07		Oldukça aşinayım	Kişisel gelişim benim için, kendimi daha iyi anlamaya çalıştığım ve her anlamda daha iyi bir versiyonuma ulaşma çabamı, sürecimi ifade ediyor.	Zihinsel sağlık ve düşünce yapısı, Özgüven ve duygusal denge, Manevi veya felsefi gelişim	Hayati / vazgeçilemez	Evet	Kendimin daha iyi ve daha sağlıklı bir versiyonuna ulaşma hayali.	Zihinsel iyi oluş (stres azaltma, terapi, farkındalık)	Orta derecede tutarlıyım	4	4	4	4	4	Alışkanlıklarımı her gün düzenli olarak yapmak beni daha mutlu hale getiriyor ve kendimi daha verimli hissediyorum.	Evet, belirgin bir şekilde	Kendimi iyi hissetmediğim günlerde kendim için bir şeyler yapmak bana zor geliyordu, böyle zamanlarda sürekliliği sağlamam zor oluyordu.	İnsanların bu sürecin çok hızlı olacağını düşünmesi. 	İçsel büyüme	Acele etmeden yavaş ama emin adımlarla ilerlesinler.	yolculuk						
+11.11.2025 00:39:24		Oldukça aşinayım	Sahip olduğumuz nitelik ve becerileri gelistirme istek ve çabamız	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Sosyal ilişkiler ve iletişim	Çok önemli	Evet	Öğrenme isteğim	Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Sosyal ve iletişim becerileri, Eğitim hayatım	Orta derecede tutarlıyım	4	4	3	4	4	Bakış açımı değjştirdi	Evet, hafif şekilde	Gelişimi benimsemek ve sürekliliğini sağlamak	Konfot alanının bozulacağını duşünmek	İçsel büyüme	Kolay değil ama imkansız hiç değil	Evrimleşmek						
+11.11.2025 05:41:33		Orta düzeyde aşinayım	İnsanın kendini tanimasi	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Özgüven ve duygusal denge	Çok önemli	Evet	Sağlık problemlerim	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı	Orta derecede tutarlıyım	5	5	5	5	5	Olumlu yönde etkiliyor	Evet, belirgin bir şekilde	İradem	Özgüven adı altındaki saygisizlik	Her ikisine eşit şekilde	Ertelemeyin	Öz benlik						
+11.11.2025 07:29:04		Son derece aşinayım	Değişim /gelişim /özün farkındalığı	Sosyal ilişkiler ve iletişim, Özgüven ve duygusal denge, Finansal ve kariyer gelişimi	Çok önemli	Evet	“Ben varsam dünyanvar, ben yoksam hiç bir şey yok.” algısı.	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı, Sosyal ve iletişim becerileri	Oldukça tutarlıyım	5	5	4	5	5	Zihinsel rahatlama sağlıyor.	Evet, belirgin bir şekilde	Zaman ayırma sıkıntısı en büyükmsıkıntı. Yoğun iş ve ev temposu ile çalışmakta olan bireyler için en büyük sorun zamandır. Herşeye zaman ayırıp kendine ayırmak maalesef çok zor oluyor. 	Bunun için her zaman 2. Bir insana ihtiyaç yoktur ve reklamsal değil farkındalık ve ze dönüşün yoludur. 	Her ikisine eşit şekilde	Özellikle genç biri ise , farklı ol ve zamanın varken kendini keşfet, geliştir ve bir üst versiyonuna geç dersim. 	Gelecek						
+11.11.2025 08:45:51		Orta düzeyde aşinayım	potansiyelimi keşfetmelerine yardımcı olmak için alınan eğitim, kitap, video vb.	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Özgüven ve duygusal denge	Çok önemli	Evet	Kendimde gördüğüm eksik yanlar, gelişime açık yönler	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı	Orta derecede tutarlıyım	4	4	4	4	4	Daha önce yapmış olduğum yanlış/doğruları daha objektif görmemi sağlar 	Evet, belirgin bir şekilde	Zaman, maliyet	Ben oldum yanılgısı	Her ikisine eşit şekilde	Her alınan eğitim muhakkak bir etkisi görülür. Vakit kaybetmeden başlamak 	Potansiyel						
+11.11.2025 10:07:00		Oldukça aşinayım	Kendimin en iyi versiyonu olmam	Zihinsel sağlık ve düşünce yapısı, Sosyal ilişkiler ve iletişim, Özgüven ve duygusal denge	Çok önemli	Evet	Gelecek hayalleri	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı, Üretkenlik ve odaklanma, Sosyal ve iletişim becerileri	Orta derecede tutarlıyım	3	4	3	2	3	Daha düzenli bir düşünce yapısı ve daha az stres	Evet, belirgin bir şekilde	Motivasyon ve zaman	Anlamsız olduğunu düşünmeleri	İçsel büyüme	Abartmadan uygulamaya geçmesi azar azar arttırması zamanla	Huzur						
+11.11.2025 15:26:11		Oldukça aşinayım	Surekli kendini güncellemeyi	Zihinsel sağlık ve düşünce yapısı, Fiziksel sağlık ve form, Üretkenlik ve disiplin	Çok önemli	Evet	Kendimin en iyi versiyonu olma istegi	Fiziksel sağlık (egzersiz, beslenme), Özgüven ve benlik saygısı, Üretkenlik ve odaklanma, Sosyal ve iletişim becerileri	Orta derecede tutarlıyım	5	5	5	5	5	Istikrarli bi hayat kazandirir	Evet, belirgin bir şekilde	Disiplinde sureklilik	Kisisel gelisimin cok hizli olma istegi	Her ikisine eşit şekilde	Kucuk adimlarla baslayip ,istikrarli olmalarini	Kendini kesfetmek						
+11.11.2025 16:04:32		Orta düzeyde aşinayım	Kişinin kendini birey olarak duygusal ve düşünsel düzeyde geliştirmesi	Zihinsel sağlık ve düşünce yapısı, Sosyal ilişkiler ve iletişim, Manevi veya felsefi gelişim	Çok önemli	Evet	Kendimde gördüğüm eksiklikler	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Sosyal ve iletişim becerileri	Orta derecede tutarlıyım	5	5	5	5	5	İyi	Evet, hafif şekilde	Kendim, eski alışkanlıklarım	Bilmiyorum	Her ikisine eşit şekilde	İstikrar en önemlisi	Tekamül						
+11.11.2025 18:38:16		Oldukça aşinayım	Var olusuna deger katmak	Zihinsel sağlık ve düşünce yapısı, Fiziksel sağlık ve form, Üretkenlik ve disiplin	Çok önemli	Evet	Dogmus olmak	Fiziksel sağlık (egzersiz, beslenme), Özgüven ve benlik saygısı, Üretkenlik ve odaklanma	Oldukça tutarlıyım	5	5	5	3	4	Disiplin ve odaklanma becerileri gelistirir.	Evet, belirgin bir şekilde	Gelisememis insanlar ile muhatap olmak.	Zaman kaybi dusuncesi.	Her ikisine eşit şekilde	Degerini kendin belirle.	Aydinlanma						
+11.11.2025 23:30:32		Son derece aşinayım	farkındalık ve kendini tanıma	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Özgüven ve duygusal denge	Hayati / vazgeçilemez	Evet	Ulaşmak istediğim hedef	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Sosyal ve iletişim becerileri	Orta derecede tutarlıyım	5	5	5	5	5	Tutarlı ve disiplinli olmayı öğrettiğini	Evet, belirgin bir şekilde	Tembellik ve özgüven eksikliği	Sadece kitaplara limitli oluşu	Her ikisine eşit şekilde	Küçük adımlala başlamak bir rutine alışmak için en iyi yöntem	evrim						
+12.11.2025 08:04:48		Oldukça aşinayım	yenilenmek	Zihinsel sağlık ve düşünce yapısı	Önemli değil	Evet	kendime vakit ayırma	Zihinsel iyi oluş (stres azaltma, terapi, farkındalık)	Oldukça tutarlıyım	4	4	4	4	4	olumlu	Evet, hafif şekilde	samanlama	zaman kaybı olduğuna inanıyorlar	Her ikisine eşit şekilde	zamanı geldii	kendin için						
+12.11.2025 08:27:37		Orta düzeyde aşinayım	Varlığımı olgunlaştırmak	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Özgüven ve duygusal denge	Çok önemli	Evet	 Kişisel ihtiyaçlar 	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık)	Orta derecede tutarlıyım	4	4	5	4	4	Olumlu	Evet, hafif şekilde	İşimin 7/24 sürprizlerle dolu olması ve  mesai kavramı olmayan bir iş olması	İlla ki spirituel  olaylarla ilgili olduğunu düşünmek	Her ikisine eşit şekilde	Vucuduna iyi bakmaya odaklansın , önce fiziksel ,olarak. Ardından vucut diğer ihtiyaçlarının yönünü belirlerçlarının 							
+12.11.2025 09:54:27		Oldukça aşinayım	Kendine gelmek 	Zihinsel sağlık ve düşünce yapısı, Fiziksel sağlık ve form, Manevi veya felsefi gelişim	Çok önemli	Evet	Travmalar 	Zihinsel iyi oluş (stres azaltma, terapi, farkındalık)	Oldukça tutarlıyım	3	3	3	3	3	Olumlu 	Evet, belirgin bir şekilde	Sürdürme çabası , konfor alanını bırakma 	Sihirli değnek olduğunu düşünüyorlar 	Her ikisine eşit şekilde	Süreklilik 	Kendini bulmak						
+12.11.2025 09:56:51		Oldukça aşinayım	Kendimi tanımak	Zihinsel sağlık ve düşünce yapısı, Fiziksel sağlık ve form, Manevi veya felsefi gelişim	Orta derecede önemli	Evet	İdol kişiler	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Özgüven ve benlik saygısı	Orta derecede tutarlıyım	5	5	3	5	4	Disiplinin çok önemli olduğuna inanıyorum 	Evet, belirgin bir şekilde	Sabırsızlık 	Faydasız olduğu	Her ikisine eşit şekilde	Hemen başlamasını	Özgürlük						
+12.11.2025 11:55:27		Orta düzeyde aşinayım	Beden-ruh ilişkisi	Zihinsel sağlık ve düşünce yapısı, Üretkenlik ve disiplin, Sosyal ilişkiler ve iletişim	Çok önemli	Evet	Yaşlanma korkusu	Fiziksel sağlık (egzersiz, beslenme), Zihinsel iyi oluş (stres azaltma, terapi, farkındalık), Sosyal ve iletişim becerileri	Orta derecede tutarlıyım	3	3	3	3	3	Olumlu	Evet, hafif şekilde	Planlı olamamak	Başaramamak	Her ikisine eşit şekilde	Planlı olmak	Müslüman (gerçek anlamda)						
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
+																											
