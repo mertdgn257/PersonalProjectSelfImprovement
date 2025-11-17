@@ -24,10 +24,7 @@ export default function Q4SmallChangesPage() {
 
           <ContentCard className="mt-8">
             <p>
-              Small changes are where the real magic happens. James Clear calls these "atomic habits" – tiny, repeated actions that slowly build up into big results. Doing a few minutes of meditation, reading, or exercise each day may seem minor at first, but over time, it can make a huge difference in your mental and physical health.
-            </p>
-            <p>
-              These little steps work because they're easy to start and don't feel overwhelming. Every time you follow through, it reinforces your brain's habits and makes the action more automatic. And consistency matters – doing something small every day often beats trying a big, sporadic change that's too hard to maintain. Over time, these small improvements stack up, creating measurable growth, boosting confidence, and showing you that steady, incremental change beats dramatic, short-term efforts.
+              Small changes are where real improvement takes place. Author James Clear calls these "atomic habits" — tiny, perpetual actions that slowly compound into big, remarkable results. Reading a couple pages, doing a few minutes of meditation, or doing cardio each day might seem minor and insignificant at first sight, yet over a certain period of time they can create powerful improvements toward your mental and physical health. These minuscule steps work because they're easy to implement and not too demanding. Every time you enforce a habit and follow through, it solidifies your mind's habits and makes it virtually autonomous. Moreover, consistency plays a crucial role — as doing something perceived as insignificant on a daily basis often overshadows attempting big, unpragmatic changes that prove hard to maintain. Over time, these small improvements stack up, ultimately creating remarkable results, boosting self-confidence, and showing you that stable, systematic change beats drastic, short-term changes.
             </p>
 
             <div className="my-8">
@@ -39,7 +36,7 @@ export default function Q4SmallChangesPage() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">The Mathematics of Small Improvements</h3>
             <p>
-              The power of tiny gains becomes clear when you understand compound growth. If you improve by just 1% each day for a year, you don't end up 365% better—you end up nearly 37 times better. Conversely, declining by 1% daily results in dropping to nearly zero. This demonstrates why small choices matter: they don't just add up, they multiply. Daily routines function like financial investments—modest but consistent deposits yield exponential returns over time.
+              Improving by 1 percent isn't particularly memorable — sometimes it's barely even noticeable — but it can carry underlying importance, specifically in the long run. The power of tiny wins becomes clear when you grasp the concept compound growth. For instance, if you improve by 1% percent each day, you'll end up 37 times better after one year. Inversely, repeating 1% errors and declining by 1% daily results in dropping nearly to zero. This perfectly exemplifies why small choices really matter. Similarly, they multiply the same way that money multiplies through compound interest. Therefore, an assumption can be made regarding how financial investments are related to — in fundamental aspects — improving by 1% on a daily basis.
             </p>
 
             <div className="my-8">
@@ -51,7 +48,7 @@ export default function Q4SmallChangesPage() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">The Valley of Disappointment</h3>
             <p>
-              One of the most frustrating aspects of building better habits is experiencing what feels like a "valley of disappointment." You put in weeks or even months of effort, yet visible results remain elusive. This is actually normal. Habits often appear to make no difference until you cross a critical threshold—a plateau of latent potential. Early work isn't wasted; it's being stored. Like ice melting from 25°F to 32°F, the change seems invisible until suddenly the ice transforms into water. Breakthroughs require patience and persistence through this valley.
+              One of, if not the most discouraging parts of constructing better habits is experiencing what James Clear calls the "Valley of Disappointment." Even after putting in countless hours, days, weeks or even months of effort just to attain an ounce of progress, it can feel overwhelmingly demoralizing when nothing seems to change. Nevertheless, it's a completely normal phenomenon. Habits usually appear to have no effect until you cross a pivotal threshold — the Plateau of Latent Potential. According to this proposition, early work isn't wasted; it's being stored (compounding). Much like the analogy of ice melting from 25 degrees to 32 degrees, change seems microscopic until in an instant ice transforms into water. Habitual advancements require patience and perseverance through this valley.
             </p>
 
             <div className="my-8">
@@ -63,7 +60,7 @@ export default function Q4SmallChangesPage() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Understanding the Habit Loop</h3>
             <p>
-              Every habit follows a four-stage cycle: a trigger (cue) sparks a desire (craving), leading to an action (response), which produces an outcome (reward). The outcome satisfies the initial desire and reinforces the connection to the original trigger. This cyclical pattern operates automatically, constantly evaluating your surroundings, anticipating what comes next, testing various reactions, and adapting based on outcomes. Recognizing this cyclical nature is fundamental to modifying any behavior—whether establishing positive habits or eliminating negative ones.
+              Every habit consists of a four-stage cycle: a trigger (cue) sparks enticement (craving), leading to an action (response), which creates an outcome (reward). The outcome satisfies the initial craving and strengthens the association to the original trigger. This cycle operates automatically — whereby your subconscious takes charge as it's something humans do instinctively — constantly checking our surroundings for potential cues, predicting the next reward, testing various scenarios, and adapting based on outcomes.
             </p>
           </ContentCard>
 
