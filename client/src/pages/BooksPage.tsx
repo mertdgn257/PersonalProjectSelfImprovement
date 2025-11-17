@@ -18,9 +18,12 @@ import artOfLearningImg from "@assets/IMG_1860_1763375358303.jpeg";
 import tenPercentHappierImg from "@assets/IMG_1861_1763375358303.jpeg";
 import manualForLivingImg from "@assets/IMG_1862_1763375358303.jpeg";
 import superhumanByHabitImg from "@assets/IMG_1863_1763375729790.jpeg";
-import booksPlaceholder1 from "@assets/stock_images/psychology_self-help_1b656cb8.jpg";
-import booksPlaceholder2 from "@assets/stock_images/psychology_self-help_be20406b.jpg";
-import booksPlaceholder3 from "@assets/stock_images/psychology_self-help_e729bef6.jpg";
+import loveYourselfImg from "@assets/IMG_1864_1763375941511.jpeg";
+import whatGotYouHereImg from "@assets/IMG_1865_1763375941511.jpeg";
+import whoMovedCheeseImg from "@assets/IMG_1866_1763375941511.jpeg";
+import miracleMorningImg from "@assets/IMG_1867_1763375941511.jpeg";
+import richestManBabylonImg from "@assets/IMG_1868_1763375941511.jpeg";
+import shortGuideHappyLifeImg from "@assets/IMG_1869_1763375941511.jpeg";
 
 interface Book {
   title: string;
@@ -129,42 +132,42 @@ const books: Book[] = [
     author: "Kamal Ravikant",
     link: "https://jamesclear.com/book/love-yourself-like-your-life-depends-on-it",
     description: "A simple yet powerful practice of self-love that can transform your life from the inside out.",
-    image: booksPlaceholder2,
+    image: loveYourselfImg,
   },
   {
     title: "What Got You Here Won't Get You There",
     author: "Marshall Goldsmith",
     link: "https://jamesclear.com/book/what-got-you-here-wont-get-you-there",
     description: "Discover the 20 habits holding you back from the next level of success and how to overcome them.",
-    image: booksPlaceholder3,
+    image: whatGotYouHereImg,
   },
   {
     title: "Who Moved My Cheese?",
     author: "Spencer Johnson",
     link: "https://jamesclear.com/book/who-moved-my-cheese",
     description: "A simple parable that reveals profound truths about dealing with change in work and life.",
-    image: booksPlaceholder1,
+    image: whoMovedCheeseImg,
   },
   {
     title: "The Miracle Morning",
     author: "Hal Elrod",
     link: "https://jamesclear.com/book/the-miracle-morning",
     description: "Transform your life before 8AM with six simple practices that create extraordinary results.",
-    image: booksPlaceholder2,
+    image: miracleMorningImg,
   },
   {
     title: "The Richest Man in Babylon",
     author: "George S. Clason",
     link: "https://jamesclear.com/book/the-richest-man-in-babylon",
     description: "Timeless financial wisdom told through parables set in ancient Babylon about saving and wealth building.",
-    image: booksPlaceholder3,
+    image: richestManBabylonImg,
   },
   {
     title: "A Short Guide to a Happy Life",
     author: "Anna Quindlen",
     link: "https://jamesclear.com/book/a-short-guide-to-a-happy-life",
     description: "Brief but powerful reflections on living a meaningful, joyful life by embracing what truly matters.",
-    image: booksPlaceholder1,
+    image: shortGuideHappyLifeImg,
   },
 ];
 
