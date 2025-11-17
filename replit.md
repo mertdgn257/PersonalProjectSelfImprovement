@@ -115,18 +115,12 @@ Preferred communication style: Simple, everyday language.
 - **Date Handling**: date-fns for date formatting
 
 ### Content Organization
-The site follows a strict page structure with 16 distinct routes:
+The site follows a strict page structure with 15 distinct routes:
 - Home, Learning Goal, Product Goal
 - Q1-Q12 (12 research question pages)
-- End Notes (bibliography and references page)
 - About
 
 Each research question page includes hero section, breadcrumbs, content card, key takeaway, and prev/next navigation for seamless browsing experience.
-
-**Navigation Flow** (November 2025):
-- Sequential navigation: Q12 → End Notes → About
-- End Notes page provides structured sections for adding citations (Books, Academic Articles & Journals, Online Resources & Websites, Primary Research)
-- Sitemap updated to include /end-notes route for SEO
 
 ### Data Visualization
 - **Q11 Survey Results Page**: Features 7 interactive charts built with Recharts library displaying survey data from 36 respondents

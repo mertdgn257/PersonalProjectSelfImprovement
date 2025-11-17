@@ -32,7 +32,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
       "/q10-4week-journey",
       "/q11-survey",
       "/q12-strategies",
-      "/end-notes",
       "/about",
     ];
 

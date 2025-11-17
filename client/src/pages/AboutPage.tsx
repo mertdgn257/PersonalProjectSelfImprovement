@@ -2,7 +2,6 @@ import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
-import { PrevNextNav } from "@/components/PrevNextNav";
 
 export default function AboutPage() {
   return (
@@ -54,12 +53,6 @@ export default function AboutPage() {
               This project embodies the IB learner profile attributes of being reflective, principled, and caring—using personal challenges as a foundation for helping others on their own self-improvement journeys.
             </p>
           </ContentCard>
-
-          <div className="mt-12">
-            <PrevNextNav
-              prev={{ label: "End Notes", path: "/end-notes" }}
-            />
-          </div>
 
           <div className="mt-12">
             <div className="bg-muted/30 rounded-lg p-6 text-center">
