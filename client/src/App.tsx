@@ -20,6 +20,7 @@ import Q9ChallengesPage from "@/pages/Q9ChallengesPage";
 import Q10JourneyPage from "@/pages/Q10JourneyPage";
 import Q11SurveyPage from "@/pages/Q11SurveyPage";
 import Q12StrategiesPage from "@/pages/Q12StrategiesPage";
+import BooksPage from "@/pages/BooksPage";
 import AboutPage from "@/pages/AboutPage";
 import NotFound from "@/pages/not-found";
 
@@ -41,6 +42,7 @@ function Router() {
       <Route path="/q10-4week-journey" component={Q10JourneyPage} />
       <Route path="/q11-survey" component={Q11SurveyPage} />
       <Route path="/q12-strategies" component={Q12StrategiesPage} />
+      <Route path="/recommended-reading" component={BooksPage} />
       <Route path="/about" component={AboutPage} />
       <Route component={NotFound} />
     </Switch>

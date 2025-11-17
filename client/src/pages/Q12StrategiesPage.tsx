@@ -99,7 +99,7 @@ export default function Q12StrategiesPage() {
           <div className="mt-12">
             <PrevNextNav
               prev={{ label: "Survey Results", path: "/q11-survey" }}
-              next={{ label: "About", path: "/about" }}
+              next={{ label: "Recommended Reading", path: "/recommended-reading" }}
             />
           </div>
         </div>

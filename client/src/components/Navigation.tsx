@@ -76,6 +76,12 @@ export function Navigation() {
               </DropdownMenuContent>
             </DropdownMenu>
 
+            <Link href="/recommended-reading">
+              <Button variant="ghost" data-testid="link-nav-books" className={location === "/recommended-reading" ? "bg-accent" : ""}>
+                Books
+              </Button>
+            </Link>
+
             <Link href="/about">
               <Button variant="ghost" data-testid="link-nav-about" className={location === "/about" ? "bg-accent" : ""}>
                 About
@@ -131,6 +137,11 @@ export function Navigation() {
                 </Link>
               ))}
             </div>
+            <Link href="/recommended-reading">
+              <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)}>
+                Recommended Reading
+              </Button>
+            </Link>
             <Link href="/about">
               <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)}>
                 About
