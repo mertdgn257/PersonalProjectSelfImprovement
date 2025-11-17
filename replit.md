@@ -118,15 +118,16 @@ Preferred communication style: Simple, everyday language.
 The site follows a strict page structure with 16 distinct routes:
 - Home, Learning Goal, Product Goal
 - Q1-Q12 (12 research question pages)
-- Recommended Reading (20 curated book recommendations)
+- Recommended Reading (19 curated book recommendations)
 - About
 
 Each research question page includes hero section, breadcrumbs, content card, key takeaway, and prev/next navigation for seamless browsing experience.
 
 **Book Recommendations Page** (November 2025):
 - Added comprehensive "Recommended Reading" page at `/recommended-reading`
-- Features 20 carefully curated books from James Clear's reading list
+- Features 19 carefully curated books from James Clear's reading list
 - Prominently features "Atomic Habits" as the foundation of this project
+- 12 books now display authentic book covers (user-provided images)
 - Books organized with covers, descriptions, and direct links to James Clear's book pages
 - Categories include self-help, psychology, habit formation, and personal development
 - All book data sourced from jamesclear.com/best-books (self-help and psychology sections)

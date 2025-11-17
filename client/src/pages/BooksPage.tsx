@@ -11,6 +11,12 @@ import thinkingFastSlowImg from "@assets/IMG_1851_1763374060516.jpeg";
 import practicingMindImg from "@assets/IMG_1852_1763374060516.jpeg";
 import compoundEffectImg from "@assets/IMG_1853_1763374060516.jpeg";
 import influenceImg from "@assets/IMG_1854_1763374060516.jpeg";
+import happinessAdvantageImg from "@assets/IMG_1856_1763375358303.jpeg";
+import stumblingHappinessImg from "@assets/IMG_1857_1763375358303.jpeg";
+import artOfPossibilityImg from "@assets/IMG_1858_1763375358303.jpeg";
+import artOfLearningImg from "@assets/IMG_1860_1763375358303.jpeg";
+import tenPercentHappierImg from "@assets/IMG_1861_1763375358303.jpeg";
+import manualForLivingImg from "@assets/IMG_1862_1763375358303.jpeg";
 import booksPlaceholder1 from "@assets/stock_images/psychology_self-help_1b656cb8.jpg";
 import booksPlaceholder2 from "@assets/stock_images/psychology_self-help_be20406b.jpg";
 import booksPlaceholder3 from "@assets/stock_images/psychology_self-help_e729bef6.jpg";
@@ -73,21 +79,21 @@ const books: Book[] = [
     author: "Shawn Achor",
     link: "https://jamesclear.com/book/the-happiness-advantage",
     description: "Seven principles of positive psychology that fuel success and performance at work and in life.",
-    image: booksPlaceholder1,
+    image: happinessAdvantageImg,
   },
   {
     title: "Stumbling on Happiness",
     author: "Dan Gilbert",
     link: "https://jamesclear.com/book/stumbling-on-happiness",
     description: "Why we make the choices we do and what we can do to make better predictions about our future happiness.",
-    image: booksPlaceholder2,
+    image: stumblingHappinessImg,
   },
   {
     title: "The Art of Possibility",
     author: "Rosamund Zander & Benjamin Zander",
     link: "https://jamesclear.com/book/the-art-of-possibility",
     description: "Transform professional and personal life by adopting twelve breakthrough practices for bringing creativity and passion into all your endeavors.",
-    image: booksPlaceholder3,
+    image: artOfPossibilityImg,
   },
   {
     title: "Superhuman by Habit",
@@ -101,21 +107,21 @@ const books: Book[] = [
     author: "Josh Waitzkin",
     link: "https://jamesclear.com/book/the-art-of-learning",
     description: "An inner journey to optimal performance by a chess prodigy and martial arts champion.",
-    image: booksPlaceholder2,
+    image: artOfLearningImg,
   },
   {
     title: "10% Happier",
     author: "Dan Harris",
     link: "https://jamesclear.com/book/10-percent-happier",
     description: "How a skeptical newscaster found meditation and became 10% happier, proving mindfulness works for anyone.",
-    image: booksPlaceholder3,
+    image: tenPercentHappierImg,
   },
   {
     title: "Manual for Living",
     author: "Epictetus",
     link: "https://jamesclear.com/book/manual-for-living",
     description: "Ancient Stoic wisdom offering practical guidance for living a good life through self-discipline and rational thinking.",
-    image: booksPlaceholder1,
+    image: manualForLivingImg,
   },
   {
     title: "Love Yourself Like Your Life Depends On It",
@@ -159,13 +165,6 @@ const books: Book[] = [
     description: "Brief but powerful reflections on living a meaningful, joyful life by embracing what truly matters.",
     image: booksPlaceholder1,
   },
-  {
-    title: "The 10X Rule",
-    author: "Grant Cardone",
-    link: "https://jamesclear.com/book/the-10x-rule",
-    description: "Set goals 10X bigger and take 10X more action than you think necessary to achieve extraordinary success.",
-    image: booksPlaceholder2,
-  },
 ];
 
 export default function BooksPage() {
@@ -176,14 +175,14 @@ export default function BooksPage() {
     <div className="min-h-screen flex flex-col">
       <SEO
         title="Recommended Reading for Self-Improvement"
-        description="20 carefully curated book recommendations for personal growth, habit formation, and self-improvement based on James Clear's reading list."
+        description="19 carefully curated book recommendations for personal growth, habit formation, and self-improvement based on James Clear's reading list."
         path="/recommended-reading"
       />
 
       <main className="flex-1">
         <HeroSection title="Recommended Reading">
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            20 transformative books to guide your self-improvement journey
+            19 transformative books to guide your self-improvement journey
           </p>
         </HeroSection>
 
@@ -202,7 +201,7 @@ export default function BooksPage() {
             </div>
 
             <p className="text-muted-foreground mb-6">
-              This curated collection features 20 essential books on habits, psychology, and personal development. 
+              This curated collection features 19 essential books on habits, psychology, and personal development. 
               Each book has been carefully selected from <a href="https://jamesclear.com/best-books" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">James Clear's reading list</a> for 
               its practical wisdom and transformative insights. Whether you're just starting your self-improvement 
               journey or looking to deepen your understanding, these books provide evidence-based strategies and 
