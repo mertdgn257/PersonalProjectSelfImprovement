@@ -17,6 +17,7 @@ import artOfPossibilityImg from "@assets/IMG_1858_1763375358303.jpeg";
 import artOfLearningImg from "@assets/IMG_1860_1763375358303.jpeg";
 import tenPercentHappierImg from "@assets/IMG_1861_1763375358303.jpeg";
 import manualForLivingImg from "@assets/IMG_1862_1763375358303.jpeg";
+import superhumanByHabitImg from "@assets/IMG_1863_1763375729790.jpeg";
 import booksPlaceholder1 from "@assets/stock_images/psychology_self-help_1b656cb8.jpg";
 import booksPlaceholder2 from "@assets/stock_images/psychology_self-help_be20406b.jpg";
 import booksPlaceholder3 from "@assets/stock_images/psychology_self-help_e729bef6.jpg";
@@ -100,7 +101,7 @@ const books: Book[] = [
     author: "Tynan",
     link: "https://jamesclear.com/book/superhuman-by-habit",
     description: "A practical guide to building habits that stick and transforming your life one habit at a time.",
-    image: booksPlaceholder1,
+    image: superhumanByHabitImg,
   },
   {
     title: "The Art of Learning",
