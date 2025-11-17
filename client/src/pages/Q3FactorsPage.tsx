@@ -21,10 +21,10 @@ export default function Q3FactorsPage() {
 
           <ContentCard className="mt-8">
             <p>
-              The urge to improve yourself usually starts when you notice a gap between who you are and who you want to be. Maybe your habits, skills, or mindset aren't where you'd like them to be, or you experience a setback that makes you realize change is needed. Higgins' self-discrepancy theory explains this: realizing your actual self isn't matching your ideal self creates an uncomfortable feeling that motivates you to act.
+              The temptation to improve yourself generally arises when you notice a blockade between your current self and who you desire to become. Your habits, mindset, or skills may not be up to the level you want them to be, or you can encounter obstacles that lead you to address the changes you need to make. Higgins' self-discrepancy theory describes this as: realizing your actual self isn't in line with your ideal self creates a sensation of discomfort that pushes you to take action.
             </p>
             <p>
-              Other triggers include seeing others succeed, societal expectations, or the basic human needs of competence, autonomy, and connection (from Self-Determination Theory). Reading about someone else's transformational journey, reflecting on your own experiences, or noticing what you want for your life can push you to start improving. Daily stress, academic or career challenges, or just a desire to live a more fulfilled life can all spark the motivation to grow. Basically, self-awareness, social influences, and emotional nudges all come together to make the desire for self-improvement stronger.
+              Further triggers include seeing other people's success, societal norms and expectations, or the intrinsic human qualities of competence, autonomy, and connection (from Self-Determination Theory). Reflecting on your own unique experiences, reading about someone else's transformative journey, or noticing your aspirations for what you want for your life can foster the incentive to start improving. Daily stress, academic or career-related challenges, or just the attraction towards living a much content life can all spark the motivation to improve. Essentially, self-awareness, social influences, and emotional cues combine to make the appeal for self-improvement stronger.
             </p>
           </ContentCard>
 
