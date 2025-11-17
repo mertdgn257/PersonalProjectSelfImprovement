@@ -5,9 +5,12 @@ import { ContentCard } from "@/components/ContentCard";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, BookOpen } from "lucide-react";
-import atomicHabitsImg from "@assets/stock_images/atomic_habits_book_c_c6e7a2e2.jpg";
-import powerOfHabitImg from "@assets/stock_images/the_power_of_habit_b_0cbc3993.jpg";
-import thinkingFastSlowImg from "@assets/stock_images/thinking_fast_and_sl_671e688e.jpg";
+import atomicHabitsImg from "@assets/IMG_1849_1763374060516.jpeg";
+import powerOfHabitImg from "@assets/IMG_1850_1763374060516.jpeg";
+import thinkingFastSlowImg from "@assets/IMG_1851_1763374060516.jpeg";
+import practicingMindImg from "@assets/IMG_1852_1763374060516.jpeg";
+import compoundEffectImg from "@assets/IMG_1853_1763374060516.jpeg";
+import influenceImg from "@assets/IMG_1854_1763374060516.jpeg";
 import booksPlaceholder1 from "@assets/stock_images/psychology_self-help_1b656cb8.jpg";
 import booksPlaceholder2 from "@assets/stock_images/psychology_self-help_be20406b.jpg";
 import booksPlaceholder3 from "@assets/stock_images/psychology_self-help_e729bef6.jpg";
@@ -49,21 +52,21 @@ const books: Book[] = [
     author: "Thomas M. Sterner",
     link: "https://jamesclear.com/book/the-practicing-mind",
     description: "Develop focus and discipline by learning to appreciate the process rather than being fixated on the product.",
-    image: booksPlaceholder1,
+    image: practicingMindImg,
   },
   {
     title: "The Compound Effect",
     author: "Darren Hardy",
     link: "https://jamesclear.com/book/the-compound-effect",
     description: "Small, smart choices made consistently over time create radical differences in your life.",
-    image: booksPlaceholder2,
+    image: compoundEffectImg,
   },
   {
     title: "Influence: The Psychology of Persuasion",
     author: "Robert Cialdini",
     link: "https://jamesclear.com/book/influence",
     description: "Master the six universal principles of influence that guide human behavior and decision-making.",
-    image: booksPlaceholder3,
+    image: influenceImg,
   },
   {
     title: "The Happiness Advantage",
