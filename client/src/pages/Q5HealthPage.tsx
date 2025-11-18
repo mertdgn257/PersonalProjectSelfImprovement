@@ -21,10 +21,10 @@ export default function Q5HealthPage() {
 
           <ContentCard className="mt-8">
             <p>
-              Working on yourself doesn't just change your mindset – it changes your body too. Mentally, practices like goal-setting, mindfulness, and journaling can reduce stress, lower anxiety, and lift your mood. When you see progress in your habits or goals, your self-esteem grows, and you become more resilient.
+              Focusing and bettering yourself doesn't just shift your mindset, it also changes your physical wellbeing too. Mentally beneficial activities such as setting goals, mindfulness, and journaling can play an effective role in reducing stress, lowering anxiety, and enhancing your mood. When you observe considerable progress in your habits of goals, you receive a self-esteem boost, and therefore, you feel unstoppable.
             </p>
             <p>
-              Physically, habits like exercising regularly, eating better, and sleeping consistently improve your overall well-being. What's cool is that improvements in one area often help the other: when your mind feels calmer and more in control, sticking to healthy habits becomes easier. Essentially, small, consistent self-improvement creates a positive cycle where mental and physical health reinforce each other, improving overall quality of life.
+              Physically beneficial habits namely exercising on the regular, eating healthier, and getting enough sleep every night continuously improves your wellbeing. What's surprising is that improvements in one area regularly help others — when your mind is clear, habits become easier to perform. Concisely, consistent and grounded self-improvement creates a cycle evoking growth, creating an environment where both mental and physical health support each other.
             </p>
           </ContentCard>
 
