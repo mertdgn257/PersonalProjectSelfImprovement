@@ -21,10 +21,10 @@ export default function Q5HealthPage() {
 
           <ContentCard className="mt-8">
             <p>
-              Focusing and bettering yourself doesn't just shift your mindset, it also changes your physical wellbeing too. Mentally beneficial activities such as setting goals, mindfulness, and journaling can play an effective role in reducing stress, lowering anxiety, and enhancing your mood. When you observe considerable progress in your habits of goals, you receive a self-esteem boost, and therefore, you feel unstoppable.
+              Focusing and bettering yourself doesn't just shift your mindset, it also changes your physical wellbeing. Activities that benefit mental health such as goals, practicing mindfulness, and journaling can play an effective role in reducing stress, lowering anxiety, and enhancing your mood. When you observe considerable progress in achieving your goals, you receive a self-esteem boost, and therefore, you feel unstoppable.
             </p>
             <p>
-              Physically beneficial habits namely exercising on the regular, eating healthier, and getting enough sleep every night continuously improves your wellbeing. What's surprising is that improvements in one area regularly help others — when your mind is clear, habits become easier to perform. Concisely, consistent and grounded self-improvement creates a cycle evoking growth, creating an environment where both mental and physical health support each other.
+              Physically beneficial habits namely regular exercise, healthy eating, and sufficient sleep every night continuously improve your wellbeing. What's surprising is that improvements in one area regularly help others — when your mind is clear, habits become easier to perform. Concisely, consistent and grounded self-improvement creates a cycle of growth, fostering an environment where both mental and physical health support each other.
             </p>
           </ContentCard>
 
