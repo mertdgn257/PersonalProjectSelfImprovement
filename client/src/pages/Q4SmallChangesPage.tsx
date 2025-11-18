@@ -4,7 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
-import compoundGrowthImg from "@assets/generated_images/1%_compound_growth_diagram_2a896ec0.png";
+import compoundGrowthImg from "@assets/generated_images/1percent_compound_growth_diagram_2a896ec0.png";
 import plateauImg from "@assets/generated_images/Plateau_of_latent_potential_93343ef1.png";
 import habitLoopImg from "@assets/generated_images/The_Habit_Loop_cycle_32e5474d.png";
 

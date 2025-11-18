@@ -24,7 +24,7 @@ export default function Q6ConfidencePage() {
               Self-improvement targets and suppresses insecurities by making you gain competence and self-awareness. Setting small and realistic goals and hitting them consistently shows you that you can succeed, boosting confidence naturally. Tracking progress (small wins included) helps you prove that growth is taking place, and consequently you'll continue to follow through with your habits.
             </p>
             <p>
-              Working on areas where you feel weak allows you to overcome fears step by step. Social support, like ones from peers, role models, and family members can influence and act as your compass and further boost confidence. Over time, the wins accumulate and lay a steady foundation to transform self-doubt into a stronger belief in your capabilities.
+              Working on areas where you feel weak allows you to overcome fears step by step. Social support, like ones from peers, role models, family members, etc. can influence and act as your compass, which further boosts confidence. Over time, the wins accumulate and lay a steady foundation to transform self-doubt into a stronger belief in your capabilities.
             </p>
           </ContentCard>
 
