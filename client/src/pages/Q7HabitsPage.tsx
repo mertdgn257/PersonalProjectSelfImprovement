@@ -22,22 +22,19 @@ export default function Q7HabitsPage() {
 
           <ContentCard className="mt-8">
             <p>
-              Research shows that high achievers tend to live highly structured, intentional lives. They have disciplined routines, often starting their days with exercise, meditation, or journaling. Continuous learning is key – many read daily or pursue new skills regularly.
-            </p>
-            <p>
-              Goal setting and time management are also common traits. Successful people break big goals into smaller steps and track progress along the way. They embrace a growth mindset, seeing challenges as opportunities rather than threats. Social support, mentorship, and the company of other motivated people play a big role too. Finally, they take care of their physical and mental health, knowing that energy and focus are essential to sustain productivity and performance.
+              Research indicates that high achieves tend to live highly planned and structured lives. They follow a specific routine without fail, often start their days off with exercise, reading, or journaling. Steady learning is crucial, many read on a daily basis or try to learn new skills. As mentioned in the previous pages, goal setting and effective time management are also common traits often associated with success. Accomplished individuals divide big goals into manageable chunks and track progress along the way. They wire themselves to embrace a growth mindset, looking at challenges as learning steps rather than threats. Social interactions with others who share the same growth fixated mindset is another major factor. Lastly, they acknowledge the importance of health; by resolving to feed, maintain and sustain their bodies and minds, they improve productivity alongside life quality.
             </p>
 
             <h3 className="text-lg font-semibold mt-8 mb-4">The Four Laws of Behavior Change</h3>
             <p>
-              Successful habit formation follows four fundamental principles. These laws apply whether you're trying to build good habits or break bad ones, and they form the foundation of lasting behavioral change.
+              Successful habit formation follows four fundamental principles. These laws apply regardless of whether you're trying to build good habits or break bad ones, and they lay the foundation of lasting behavioral change.
             </p>
 
             <div className="my-6 space-y-4">
               <div className="border-l-4 border-primary pl-4">
                 <h4 className="font-semibold mb-1">1st Law: Make It Obvious</h4>
                 <p className="text-sm text-muted-foreground">
-                  Design your environment so cues for good habits are visible. Use implementation intentions ("I will exercise at 7am in the living room") and habit stacking to create clear triggers. To break bad habits, reduce exposure to negative cues.
+                  Design your environment to make cues for good habits much transparent. Use implementation intensions (to demonstrate — "I will do journaling for 15 minutes at 8am in my bedroom") and habit stacking to generate clear triggers. To break bad habits, reduce exposure to negative cues.
                 </p>
               </div>
 
@@ -51,14 +48,14 @@ export default function Q7HabitsPage() {
               <div className="border-l-4 border-primary pl-4">
                 <h4 className="font-semibold mb-1">3rd Law: Make It Easy</h4>
                 <p className="text-sm text-muted-foreground">
-                  Reduce friction between you and good habits. Use the Two-Minute Rule: scale down habits until they take less than two minutes to start. Prime your environment for success. To break bad habits, increase friction and make them more difficult.
+                  Reduce disruption between you and good habits. Use the Two-Minute Rule: scale down habits until they take less than two minutes to start. Prime your environment for success. To break bad habits, increase friction and make them more difficult.
                 </p>
               </div>
 
               <div className="border-l-4 border-primary pl-4">
                 <h4 className="font-semibold mb-1">4th Law: Make It Satisfying</h4>
                 <p className="text-sm text-muted-foreground">
-                  Give yourself immediate rewards when completing habits. Track your progress and maintain your streak. Never miss twice—if you skip a day, get back on track immediately. To break bad habits, make the costs visible and painful.
+                  Give yourself immediate rewards when completing habits. Track your progress and maintain your streak. Never miss twice. If you skip a day, get back on track immediately. To break bad habits, make the costs apparent and painful.
                 </p>
               </div>
             </div>
@@ -72,7 +69,7 @@ export default function Q7HabitsPage() {
 
             <h3 className="text-lg font-semibold mt-8 mb-4">Habit Stacking: The Power of Existing Routines</h3>
             <p>
-              One of the most effective strategies for building new habits is habit stacking. The formula is simple: "After [CURRENT HABIT], I will [NEW HABIT]." By linking a new behavior to an established routine, you create a clear trigger that makes the new habit more likely to stick. For example: "After I pour my morning coffee, I will meditate for five minutes," or "After I close my laptop for the day, I will write down three things I'm grateful for." This approach leverages the neural pathways you've already built, making it easier to integrate new positive behaviors into your life without relying solely on motivation or willpower.
+              One of the most effective strategies for building new habits is habit stacking. The formula is as follows: "After [CURRENT HABIT], I will [NEW HABIT]." By linking a new behavior to an established routine, you create a visible cue that makes the new habit more magnetic. Such as: "After I pour my morning cup of coffee, I will meditate for sixty seconds", then "After I meditate for sixty seconds, I will write my to-do list for the day." This approach uses the neural pathways you've built before, which provides ease when integrating new positive behaviors into your life without only relying on sheer willpower.
             </p>
           </ContentCard>
 
