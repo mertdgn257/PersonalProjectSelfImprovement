@@ -4,6 +4,9 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
+import timelineImg from "@assets/generated_images/Four-week_journey_timeline_diagram_e1cee8a2.png";
+import habitTrackingImg from "@assets/generated_images/Habit_tracking_visual_grid_0d18ff2d.png";
+import growthCurveImg from "@assets/generated_images/Growth_progress_curve_chart_8904a3b8.png";
 
 export default function Q10JourneyPage() {
   return (
@@ -18,6 +21,13 @@ export default function Q10JourneyPage() {
       <main className="flex-1">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
           <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "Q10: 4-Week Journey" }]} />
+
+          <div className="my-8">
+            <img src={timelineImg} alt="4-week self-improvement journey timeline" className="w-full rounded-md" />
+            <p className="text-sm text-muted-foreground mt-2 text-center">
+              Overview of the four-week self-improvement journey
+            </p>
+          </div>
 
           <ContentCard className="mt-8">
             <h2>Week 1: Awareness and Understanding Myself</h2>
@@ -41,6 +51,14 @@ export default function Q10JourneyPage() {
               <li>Reading 10 minutes daily to improve focus and knowledge</li>
               <li>Daily reflection in my journal to track emotions and progress</li>
             </ul>
+
+            <div className="my-8">
+              <img src={habitTrackingImg} alt="Habit tracking grid showing daily progress" className="w-full max-w-md mx-auto rounded-md" />
+              <p className="text-sm text-muted-foreground mt-2 text-center">
+                Visual habit tracker: Building consistency through daily repetition
+              </p>
+            </div>
+
             <p>
               At first, meditation felt difficult; my mind wandered constantly. But by the third day, I noticed a calmer mindset during classes, and my journaling helped me see patterns in my stress triggers. I also started using habit stacking: reading right after breakfast and journaling before bed.
             </p>
@@ -69,6 +87,14 @@ export default function Q10JourneyPage() {
               <li>My focus improved, and I could complete tasks more efficiently</li>
               <li>Confidence grew as I noticed real progress in areas I previously doubted</li>
             </ul>
+
+            <div className="my-8">
+              <img src={growthCurveImg} alt="Growth progress curve over 4 weeks" className="w-full rounded-md" />
+              <p className="text-sm text-muted-foreground mt-2 text-center">
+                Measurable progress in confidence, focus, and stress management over four weeks
+              </p>
+            </div>
+
             <p>
               Daily journaling allowed me to track small wins and recognize growth. For example, I could handle a stressful assignment calmly instead of panicking. This reflection helped me see that small, consistent actions truly compound into meaningful personal development.
             </p>
