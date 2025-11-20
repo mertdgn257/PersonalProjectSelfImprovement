@@ -21,10 +21,13 @@ export default function Q2MotivationPage() {
 
           <ContentCard className="mt-8">
             <p>
-              Individuals tend to begin improving themselves for bunch of reasons, most often it's because they feel like something is missing or not quite right in their lives. It involves aspects such as anxiety, stress, or an overall dissatisfaction with the trajectory of things going on. Frequently, people realize they desire better mental health, more confidence, or a much profound sense of life satisfaction. On certain occasions inspiration comes from seeing others succeed — friends who have achieved their goals, celebrities, mentors — which goes to show how much social factors can inspire motivation.
+              People lean towards improving themselves for a variety of reasons, the most common one is feeling discontent and having a notion like something is missing in their lives. It includes different variables such as anxiety, stress, or a general dissatisfaction with ongoing events. People often realize they want to better their mental health, have more confidence, or a pleasing sense of life satisfaction. Inspiration generally comes from watching others succeed, those most likely being friends who've accomplished their goals, celebrities you follow and admire, or mentors and guides — ultimately showing us how motivational (and important) social factors are.
             </p>
             <p>
-              Psychology indirectly states that motivation becomes inseparable when it comes from within the individual, meaning the goals we set should be of our personal interest(s). External rewards or social incentives can temporarily lead to instantaneous distinctions, but they don't often guarantee or sustain long-term change in any shape or form. Things that prove self-improvement successful consist of setting rational/realistic goals, believing in yourself, planning properly, maintaining a positive mindset, and surrounding yourself with a supportive environment. Conversely, lack of structural planning, setting expectations beyond your boundaries, or being overly critical towards yourself can seize progress. Successful self-improvement combines innate motivation, consistent habits, and taking into consideration the small wins along the way.
+              Psychology indicates that motivation sticks when it comes from a place of personal interest. Meaning our goals should be in correlation to our curiosities. External and temporary goals or social cues can momentarily lead to direct change, yet they don't really support long-term development. Things that make self-improvement successful include setting realistic goals, having confidence, planning properly, keeping a positive attitude, and forming your environment according to your needs.
+            </p>
+            <p>
+              On the other hand, lack of purposeful planning, setting out-of-reach expectations, or being harsh towards yourself can slow progress. Successful self-improvement is a combination of intrinsic motivation, consistency between habits, and accepting the small wins along your journey.
             </p>
           </ContentCard>
 

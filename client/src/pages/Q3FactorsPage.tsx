@@ -21,10 +21,10 @@ export default function Q3FactorsPage() {
 
           <ContentCard className="mt-8">
             <p>
-              The temptation to improve yourself generally arises when you notice a blockade between your current self and who you desire to become. Your habits, mindset, or skills may not be up to the level you want them to be, or you can encounter obstacles that lead you to address the changes you need to make. Higgins' self-discrepancy theory describes this as: realizing your actual self isn't in line with your ideal self creates a sensation of discomfort that pushes you to take action.
+              The desire to improve yourself generally occurs when you notice a blockade between your current self and who you want to become. Your habits, mindset, or skills may not be up to the level you want them to be, or you can come across obstacles that lead you to address the changes you need to make. Higgins' self-discrepancy theory describes this as: realizing your actual self isn't in check with your the ideal version of yourself creates a feeling of discomfort that guides you to take action.
             </p>
             <p>
-              Further triggers include seeing other people's success, societal norms and expectations, or the intrinsic human qualities of competence, autonomy, and connection (from Self-Determination Theory). Reflecting on your own unique experiences, reading about someone else's transformative journey, or noticing your aspirations for what you want for your life can foster the incentive to start improving. Daily stress, academic or career-related challenges, or just the attraction towards living a much content life can all spark the motivation to improve. Essentially, self-awareness, social influences, and emotional cues combine to make the appeal for self-improvement stronger.
+              Further examples of triggers are social norms, or human qualities of autonomy and competence. These triggers direct your behaviors, and eventually become the puzzle pieces that form your habits. Reflecting on your experiences, addressing your future goals, or hearing about someone else's development journey can foster the influence you need to start improving. Daily stress, academic, and emotionally related issues can spark the motivation to grow. Basically, self-awareness, emotional, and social cues collaborate to form the desire and appeal for self-improvement — altogether making it inevitable.
             </p>
           </ContentCard>
 
