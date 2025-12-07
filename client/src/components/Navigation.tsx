@@ -82,9 +82,9 @@ export function Navigation() {
               </Button>
             </Link>
 
-            <Link href="/about">
-              <Button variant="ghost" data-testid="link-nav-about" className={location === "/about" ? "bg-accent" : ""}>
-                About
+            <Link href="/sources">
+              <Button variant="ghost" data-testid="link-nav-sources" className={location === "/sources" ? "bg-accent" : ""}>
+                Sources
               </Button>
             </Link>
           </div>
@@ -142,9 +142,9 @@ export function Navigation() {
                 Recommended Reading
               </Button>
             </Link>
-            <Link href="/about">
+            <Link href="/sources">
               <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)}>
-                About
+                Sources
               </Button>
             </Link>
           </div>

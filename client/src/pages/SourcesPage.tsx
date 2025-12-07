@@ -550,7 +550,7 @@ export default function SourcesPage() {
 
           <div className="mt-12">
             <PrevNextNav
-              prev={{ label: "About", path: "/about" }}
+              prev={{ label: "Recommended Reading", path: "/recommended-reading" }}
             />
           </div>
         </div>

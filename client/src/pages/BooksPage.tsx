@@ -307,7 +307,7 @@ export default function BooksPage() {
           <div className="mt-12">
             <PrevNextNav
               prev={{ label: "Everyday Strategies", path: "/q12-strategies" }}
-              next={{ label: "About", path: "/about" }}
+              next={{ label: "Sources", path: "/sources" }}
             />
           </div>
         </div>
