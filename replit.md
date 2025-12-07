@@ -21,19 +21,24 @@ Preferred communication style: Simple, everyday language.
 - **State Management**: TanStack React Query for server state and data fetching
 - **Forms**: React Hook Form with Zod validation via @hookform/resolvers
 
-**Design System**:
-- Color palette: Minimal black & white with subtle grays, clean and simple design
-- Typography: Inter (sans-serif) for all text - headings and body, inspired by James Clear's clean aesthetic
+**Design System** (December 2025 Refresh):
+- Color palette: Refined blue-gray accent system (primary: 220 70% 50%, secondary: 214 32% 94%) with cohesive light/dark themes
+- Typography: Inter font family, line-height 1.7 for readability, improved heading hierarchy
 - Layout: Single column with max-width 768px (max-w-3xl), content-focused design
 - Accessibility: Semantic HTML, keyboard navigation, WCAG AA contrast ratios (4.5:1)
-- Minimal aesthetic inspired by jamesclear.com - clean, readable, distraction-free
+- Visual polish: Subtle shadows, smooth transitions, backdrop blur effects
+- Inspired by jamesclear.com - clean, readable, modern, distraction-free
 
 **Key Components**:
 - `PageLayout`: Global wrapper with Navigation and Footer
-- `HeroSection`: Page headers with gradient backgrounds and optional images
-- `ContentCard`: Main content containers with prose styling
-- `Breadcrumbs`: Navigation aids on all inner pages
-- `PrevNextNav`: Sequential navigation between question pages
+- `Navigation`: Sticky header with backdrop blur (bg-background/80), active state indicators, dropdown for questions
+- `HeroSection`: Page headers with gradient overlays (from-secondary/50 via-background to-secondary/30)
+- `ContentCard`: Main content containers with card borders, shadows, and enhanced prose styling
+- `KeyTakeaway`: Accent-styled callout with lightbulb icon, "KEY TAKEAWAY" label, left border accent
+- `QuestionCard`: Circular number badges, hover shadow effects, arrow indicators
+- `Breadcrumbs`: Home icon, improved hover states on all links
+- `PrevNextNav`: Enhanced button styling with chevron animations
+- `Footer`: Heart icon with "Made with" text, clean centered layout
 - `SEO`: Helmet-based meta tags with Open Graph and Twitter card support
 - `ThemeToggle`: Light/dark mode switcher with localStorage persistence
 
@@ -115,11 +120,11 @@ Preferred communication style: Simple, everyday language.
 - **Date Handling**: date-fns for date formatting
 
 ### Content Organization
-The site follows a strict page structure with 16 distinct routes:
-- Home, Learning Goal, Product Goal
+The site follows a streamlined page structure with 15 distinct routes:
+- Home
 - Q1-Q12 (12 research question pages)
 - Recommended Reading (19 curated book recommendations)
-- About
+- Sources (89 MLA-8 formatted citations)
 
 Each research question page includes hero section, breadcrumbs, content card, key takeaway, and prev/next navigation for seamless browsing experience.
 
