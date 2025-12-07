@@ -2,6 +2,8 @@ import { Link } from "wouter";
 import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { QuestionCard } from "@/components/QuestionCard";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, BookOpen } from "lucide-react";
 
 const questions = [
   {
@@ -87,14 +89,37 @@ export default function HomePage() {
         path="/"
       />
       <HeroSection title="IB Personal Project — Self-Improvement">
-        <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-hero-subhead">
+        <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed" data-testid="text-hero-subhead">
           Small steps. Real growth. Exploring how consistent, intentional changes can transform your life.
         </p>
+        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Link href="/what-is-self-improvement">
+            <Button size="lg" className="group shadow-md hover:shadow-lg transition-shadow duration-200" data-testid="button-get-started">
+              Start Reading
+              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
+            </Button>
+          </Link>
+          <Link href="/recommended-reading">
+            <Button variant="outline" size="lg" className="group" data-testid="button-books">
+              <BookOpen className="mr-2 h-4 w-4" />
+              Book Recommendations
+            </Button>
+          </Link>
+        </div>
       </HeroSection>
 
-      <main className="flex-1">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
-          <div className="flex flex-col gap-8">
+      <main className="flex-1 py-12 md:py-16">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-3">
+              12 Research Questions
+            </h2>
+            <p className="text-muted-foreground max-w-xl mx-auto">
+              Explore evidence-based insights on personal growth, habits, and sustainable change.
+            </p>
+          </div>
+          
+          <div className="flex flex-col gap-4">
             {questions.map((q) => (
               <QuestionCard key={q.number} {...q} />
             ))}

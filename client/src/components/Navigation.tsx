@@ -30,34 +30,38 @@ export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full border-b bg-background">
+    <nav className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md transition-all duration-200">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">
           <Link href="/" className="flex-shrink-0">
-            <span className="font-sans text-lg font-semibold text-foreground hover-elevate active-elevate-2 rounded-md px-3 py-2" data-testid="link-home">
+            <span className="font-sans text-lg font-semibold text-foreground hover:text-primary transition-colors duration-200 rounded-md px-3 py-2" data-testid="link-home">
               Self-Improvement
             </span>
           </Link>
 
           <div className="hidden md:flex items-center gap-1 flex-1 justify-center">
             <Link href="/">
-              <Button variant="ghost" data-testid="link-nav-home" className={location === "/" ? "bg-accent" : ""}>
+              <Button 
+                variant="ghost" 
+                data-testid="link-nav-home" 
+                className={`transition-colors duration-200 ${location === "/" ? "bg-secondary text-foreground" : "hover:bg-secondary/50"}`}
+              >
                 Home
               </Button>
             </Link>
             
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" data-testid="button-nav-questions">
-                  Questions <ChevronDown className="ml-1 h-4 w-4" />
+                <Button variant="ghost" data-testid="button-nav-questions" className="transition-colors duration-200 hover:bg-secondary/50">
+                  Questions <ChevronDown className="ml-1 h-4 w-4 transition-transform duration-200" />
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="start" className="w-80 max-h-96 overflow-y-auto">
+              <DropdownMenuContent align="start" className="w-80 max-h-96 overflow-y-auto shadow-lg">
                 <div className="grid gap-1 p-2">
                   {questions.map((q) => (
                     <Link key={q.id} href={q.path}>
-                      <DropdownMenuItem data-testid={`link-question-${q.id}`} className="cursor-pointer">
-                        <span className="font-medium">{q.id.toUpperCase()}:</span>
+                      <DropdownMenuItem data-testid={`link-question-${q.id}`} className="cursor-pointer transition-colors duration-150">
+                        <span className="font-medium text-primary">{q.id.toUpperCase()}:</span>
                         <span className="ml-2 text-sm">{q.title}</span>
                       </DropdownMenuItem>
                     </Link>
@@ -67,13 +71,21 @@ export function Navigation() {
             </DropdownMenu>
 
             <Link href="/recommended-reading">
-              <Button variant="ghost" data-testid="link-nav-books" className={location === "/recommended-reading" ? "bg-accent" : ""}>
+              <Button 
+                variant="ghost" 
+                data-testid="link-nav-books" 
+                className={`transition-colors duration-200 ${location === "/recommended-reading" ? "bg-secondary text-foreground" : "hover:bg-secondary/50"}`}
+              >
                 Books
               </Button>
             </Link>
 
             <Link href="/sources">
-              <Button variant="ghost" data-testid="link-nav-sources" className={location === "/sources" ? "bg-accent" : ""}>
+              <Button 
+                variant="ghost" 
+                data-testid="link-nav-sources" 
+                className={`transition-colors duration-200 ${location === "/sources" ? "bg-secondary text-foreground" : "hover:bg-secondary/50"}`}
+              >
                 Sources
               </Button>
             </Link>
@@ -84,21 +96,25 @@ export function Navigation() {
             <Button
               variant="ghost"
               size="icon"
-              className="md:hidden"
+              className="md:hidden transition-colors duration-200"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               data-testid="button-mobile-menu"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                {mobileMenuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                )}
               </svg>
             </Button>
           </div>
         </div>
 
-        {mobileMenuOpen && (
-          <div className="md:hidden border-t py-4 space-y-2">
+        <div className={`md:hidden border-t overflow-hidden transition-all duration-300 ease-in-out ${mobileMenuOpen ? 'max-h-screen py-4' : 'max-h-0 py-0'}`}>
+          <div className="space-y-2">
             <Link href="/">
-              <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)}>
+              <Button variant="ghost" className="w-full justify-start transition-colors duration-200" onClick={() => setMobileMenuOpen(false)}>
                 Home
               </Button>
             </Link>
@@ -109,26 +125,27 @@ export function Navigation() {
                   <Button
                     variant="ghost"
                     size="sm"
-                    className="w-full justify-start text-sm"
+                    className="w-full justify-start text-sm transition-colors duration-200"
                     onClick={() => setMobileMenuOpen(false)}
                   >
-                    {q.id.toUpperCase()}: {q.title}
+                    <span className="text-primary font-medium">{q.id.toUpperCase()}:</span>
+                    <span className="ml-2">{q.title}</span>
                   </Button>
                 </Link>
               ))}
             </div>
             <Link href="/recommended-reading">
-              <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)}>
+              <Button variant="ghost" className="w-full justify-start transition-colors duration-200" onClick={() => setMobileMenuOpen(false)}>
                 Recommended Reading
               </Button>
             </Link>
             <Link href="/sources">
-              <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)}>
+              <Button variant="ghost" className="w-full justify-start transition-colors duration-200" onClick={() => setMobileMenuOpen(false)}>
                 Sources
               </Button>
             </Link>
           </div>
-        )}
+        </div>
       </div>
     </nav>
   );
