@@ -6,8 +6,6 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { HelmetProvider } from "react-helmet-async";
 import { PageLayout } from "@/components/PageLayout";
 import HomePage from "@/pages/HomePage";
-import LearningGoalPage from "@/pages/LearningGoalPage";
-import ProductGoalPage from "@/pages/ProductGoalPage";
 import WhatIsSelfImprovementPage from "@/pages/WhatIsSelfImprovementPage";
 import Q2MotivationPage from "@/pages/Q2MotivationPage";
 import Q3FactorsPage from "@/pages/Q3FactorsPage";
@@ -28,8 +26,6 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={HomePage} />
-      <Route path="/learning-goal" component={LearningGoalPage} />
-      <Route path="/product-goal" component={ProductGoalPage} />
       <Route path="/what-is-self-improvement" component={WhatIsSelfImprovementPage} />
       <Route path="/q2-motivation" component={Q2MotivationPage} />
       <Route path="/q3-factors" component={Q3FactorsPage} />

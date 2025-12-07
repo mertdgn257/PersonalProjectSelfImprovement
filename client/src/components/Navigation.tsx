@@ -45,16 +45,6 @@ export function Navigation() {
                 Home
               </Button>
             </Link>
-            <Link href="/learning-goal">
-              <Button variant="ghost" data-testid="link-nav-learning" className={location === "/learning-goal" ? "bg-accent" : ""}>
-                Learning Goal
-              </Button>
-            </Link>
-            <Link href="/product-goal">
-              <Button variant="ghost" data-testid="link-nav-product" className={location === "/product-goal" ? "bg-accent" : ""}>
-                Product Goal
-              </Button>
-            </Link>
             
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -110,16 +100,6 @@ export function Navigation() {
             <Link href="/">
               <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)}>
                 Home
-              </Button>
-            </Link>
-            <Link href="/learning-goal">
-              <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)}>
-                Learning Goal
-              </Button>
-            </Link>
-            <Link href="/product-goal">
-              <Button variant="ghost" className="w-full justify-start" onClick={() => setMobileMenuOpen(false)}>
-                Product Goal
               </Button>
             </Link>
             <div className="pl-4 space-y-1">

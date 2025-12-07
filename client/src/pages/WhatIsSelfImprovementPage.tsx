@@ -37,7 +37,7 @@ export default function WhatIsSelfImprovementPage() {
 
           <div className="mt-12">
             <PrevNextNav
-              prev={{ label: "Product Goal", path: "/product-goal" }}
+              prev={{ label: "Home", path: "/" }}
               next={{ label: "Motivation & Success Factors", path: "/q2-motivation" }}
             />
           </div>
