@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
+import journeyTimelineImg from "@assets/generated_images/4-week_journey_timeline_diagram.png";
 
 export default function Q10JourneyPage() {
   return (
@@ -18,6 +19,18 @@ export default function Q10JourneyPage() {
       <main className="flex-1">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
           <Breadcrumbs items={[{ label: "Home", path: "/" }, { label: "Q10: 4-Week Journey" }]} />
+
+          <figure className="mt-8 mb-8">
+            <img 
+              src={journeyTimelineImg} 
+              alt="4-week self-improvement journey timeline showing progression from awareness to integration" 
+              className="w-full rounded-lg"
+              data-testid="img-journey-timeline"
+            />
+            <figcaption className="text-center text-sm text-muted-foreground mt-2">
+              The 4-Week Journey: From Awareness to Integration
+            </figcaption>
+          </figure>
 
           <ContentCard className="mt-8">
             <h2>Week 1: Awareness and Understanding Myself</h2>

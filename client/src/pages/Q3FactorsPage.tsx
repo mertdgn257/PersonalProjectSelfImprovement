@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
+import selfDiscrepancyImg from "@assets/generated_images/self-discrepancy_theory_visualization.png";
 
 export default function Q3FactorsPage() {
   return (
@@ -23,6 +24,17 @@ export default function Q3FactorsPage() {
             <p>
               The desire to improve yourself generally occurs when you notice a blockade between your current self and who you want to become. Your habits, mindset, or skills may not be up to the level you want them to be, or you can come across obstacles that lead you to address the changes you need to make. Higgins' self-discrepancy theory describes this as: realizing your actual self isn't in check with your the ideal version of yourself creates a feeling of discomfort that guides you to take action.
             </p>
+            <figure className="my-8">
+              <img 
+                src={selfDiscrepancyImg} 
+                alt="Self-discrepancy theory visualization showing the gap between actual self and ideal self" 
+                className="w-full rounded-lg"
+                data-testid="img-self-discrepancy"
+              />
+              <figcaption className="text-center text-sm text-muted-foreground mt-2">
+                Higgins' Self-Discrepancy Theory: The Gap Between Actual and Ideal Self
+              </figcaption>
+            </figure>
             <p>
               Further examples of triggers are social norms, or human qualities of autonomy and competence. These triggers direct your behaviors, and eventually become the puzzle pieces that form your habits. Reflecting on your experiences, addressing your future goals, or hearing about someone else's development journey can foster the influence you need to start improving. Daily stress, academic, and emotionally related issues can spark the motivation to grow. Basically, self-awareness, emotional, and social cues collaborate to form the desire and appeal for self-improvement — altogether making it inevitable.
             </p>

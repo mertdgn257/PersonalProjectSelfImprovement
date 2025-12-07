@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
+import journeyCycleImg from "@assets/generated_images/self-improvement_journey_cycle_diagram.png";
 
 export default function WhatIsSelfImprovementPage() {
   return (
@@ -26,6 +27,17 @@ export default function WhatIsSelfImprovementPage() {
             <p>
               Self-improvement can be defined as the entirety of constant yet stable changes aimed towards developing one's personal qualities —namely intrapersonal (about the self), interpersonal (relations with others), professional, and practical qualities— purely by a one's own efforts. It incorporates many ideologies, tactics and practices targeted towards betterment. Self-improvement boils down to a practice that requires continuity, critical reflection, uncompromising honesty to identify aspects that are in need of growth, and conscious action to address them. Self improvement can have diverse benefits that change the way we perceive ourselves and engage with our surroundings.
             </p>
+            <figure className="my-8">
+              <img 
+                src={journeyCycleImg} 
+                alt="Self-improvement journey cycle diagram showing the continuous process of awareness, goal-setting, action, and reflection" 
+                className="w-full rounded-lg"
+                data-testid="img-journey-cycle"
+              />
+              <figcaption className="text-center text-sm text-muted-foreground mt-2">
+                The Self-Improvement Journey: A Continuous Cycle
+              </figcaption>
+            </figure>
             <p>
               Furthermore, when people talk about self-improvement, they usually talk about procuring some degree of achievement (status, money, etc.). Such improvement concern a person's life situation —resources of conditions that make daily living better, but do not fundamentally alter who the person really is. Which is not to be considered the same as self-improvement, as self-improvement delves into an individual's psychology and does not possess materialistic attributes.
             </p>

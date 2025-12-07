@@ -4,6 +4,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import { PrevNextNav } from "@/components/PrevNextNav";
+import motivationImg from "@assets/generated_images/intrinsic_vs_extrinsic_motivation.png";
 
 export default function Q2MotivationPage() {
   return (
@@ -23,6 +24,17 @@ export default function Q2MotivationPage() {
             <p>
               People lean towards improving themselves for a variety of reasons, the most common one is feeling discontent and having a notion like something is missing in their lives. It includes different variables such as anxiety, stress, or a general dissatisfaction with ongoing events. People often realize they want to better their mental health, have more confidence, or a pleasing sense of life satisfaction. Inspiration generally comes from watching others succeed, those most likely being friends who've accomplished their goals, celebrities you follow and admire, or mentors and guides — ultimately showing us how motivational (and important) social factors are.
             </p>
+            <figure className="my-8">
+              <img 
+                src={motivationImg} 
+                alt="Diagram comparing intrinsic motivation (internal drive) versus extrinsic motivation (external rewards)" 
+                className="w-full rounded-lg"
+                data-testid="img-motivation-types"
+              />
+              <figcaption className="text-center text-sm text-muted-foreground mt-2">
+                Intrinsic vs Extrinsic Motivation
+              </figcaption>
+            </figure>
             <p>
               Psychology indicates that motivation sticks when it comes from a place of personal interest. Meaning our goals should be in correlation to our curiosities. External and temporary goals or social cues can momentarily lead to direct change, yet they don't really support long-term development. Things that make self-improvement successful include setting realistic goals, having confidence, planning properly, keeping a positive attitude, and forming your environment according to your needs.
             </p>
