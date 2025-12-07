@@ -2,6 +2,7 @@ import { SEO } from "@/components/SEO";
 import { HeroSection } from "@/components/HeroSection";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ContentCard } from "@/components/ContentCard";
+import { PrevNextNav } from "@/components/PrevNextNav";
 
 export default function AboutPage() {
   return (
@@ -60,6 +61,13 @@ export default function AboutPage() {
                 Created by Mert as an IB Middle Years Programme Personal Project
               </p>
             </div>
+          </div>
+
+          <div className="mt-12">
+            <PrevNextNav
+              prev={{ label: "Recommended Reading", path: "/recommended-reading" }}
+              next={{ label: "Sources", path: "/sources" }}
+            />
           </div>
         </div>
       </main>

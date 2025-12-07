@@ -5,6 +5,7 @@ import { ContentCard } from "@/components/ContentCard";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, BookOpen } from "lucide-react";
+import { PrevNextNav } from "@/components/PrevNextNav";
 import atomicHabitsImg from "@assets/IMG_1849_1763374060516.jpeg";
 import powerOfHabitImg from "@assets/IMG_1850_1763374060516.jpeg";
 import thinkingFastSlowImg from "@assets/IMG_1851_1763374060516.jpeg";
@@ -303,14 +304,11 @@ export default function BooksPage() {
             </div>
           </ContentCard>
 
-          <div className="mt-8">
-            <div className="flex justify-end">
-              <Button variant="outline" asChild data-testid="button-next-about">
-                <a href="/about">
-                  Continue to About →
-                </a>
-              </Button>
-            </div>
+          <div className="mt-12">
+            <PrevNextNav
+              prev={{ label: "Everyday Strategies", path: "/q12-strategies" }}
+              next={{ label: "About", path: "/about" }}
+            />
           </div>
         </div>
       </main>

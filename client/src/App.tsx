@@ -22,6 +22,7 @@ import Q11SurveyPage from "@/pages/Q11SurveyPage";
 import Q12StrategiesPage from "@/pages/Q12StrategiesPage";
 import BooksPage from "@/pages/BooksPage";
 import AboutPage from "@/pages/AboutPage";
+import SourcesPage from "@/pages/SourcesPage";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -44,6 +45,7 @@ function Router() {
       <Route path="/q12-strategies" component={Q12StrategiesPage} />
       <Route path="/recommended-reading" component={BooksPage} />
       <Route path="/about" component={AboutPage} />
+      <Route path="/sources" component={SourcesPage} />
       <Route component={NotFound} />
     </Switch>
   );
