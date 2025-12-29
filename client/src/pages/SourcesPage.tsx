@@ -603,9 +603,23 @@ export default function SourcesPage() {
             </ol>
           </ContentCard>
 
+          <div className="mt-12 p-6 bg-secondary/40 border border-secondary rounded-lg">
+            <h3 className="font-semibold text-lg mb-3">Finishing Notes</h3>
+            <p className="text-muted-foreground mb-3">
+              This research journey has been a reflection of curiosity, determination, and the power of asking the right questions. These 100 sources represent not just citations, but stepping stones in understanding how personal growth happens.
+            </p>
+            <p className="text-muted-foreground mb-3">
+              What I've learned is that self-improvement isn't a destination—it's a practice. It's the small decisions made consistently, the habits built patiently, and the willingness to learn from both successes and failures. The frameworks and evidence presented here are meant to equip you with understanding, but the real work happens in your daily choices.
+            </p>
+            <p className="text-muted-foreground">
+              Whether you're building confidence, managing anxiety, or simply striving to become the person you want to be, remember: every expert was once a beginner. Start where you are. Use what you have. Do what you can. And trust that progress compounds.
+            </p>
+          </div>
+
           <div className="mt-12">
             <PrevNextNav
               prev={{ label: "Recommended Reading", path: "/recommended-reading" }}
+              next={{ label: "About", path: "/about" }}
             />
           </div>
         </div>

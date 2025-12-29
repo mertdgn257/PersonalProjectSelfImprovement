@@ -89,6 +89,16 @@ export function Navigation() {
                 Sources
               </Button>
             </Link>
+
+            <Link href="/about">
+              <Button 
+                variant="ghost" 
+                data-testid="link-nav-about" 
+                className={`transition-colors duration-200 ${location === "/about" ? "bg-secondary text-foreground" : "hover:bg-secondary/50"}`}
+              >
+                About
+              </Button>
+            </Link>
           </div>
 
           <div className="flex items-center gap-2">
@@ -142,6 +152,11 @@ export function Navigation() {
             <Link href="/sources">
               <Button variant="ghost" className="w-full justify-start transition-colors duration-200" onClick={() => setMobileMenuOpen(false)}>
                 Sources
+              </Button>
+            </Link>
+            <Link href="/about">
+              <Button variant="ghost" className="w-full justify-start transition-colors duration-200" onClick={() => setMobileMenuOpen(false)}>
+                About
               </Button>
             </Link>
           </div>
