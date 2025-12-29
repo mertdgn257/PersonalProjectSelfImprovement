@@ -463,6 +463,61 @@ const sources: Source[] = [
     citation: '"Customer Confirmed." James Clear',
     url: "https://jamesclear.com/atomic-habits/customer-confirmed",
   },
+  {
+    id: 90,
+    citation: '"The Habit Loop." James Clear',
+    url: "https://s3.amazonaws.com/jamesclear/Atomic+Habits/The+Habit+Loop.pdf",
+  },
+  {
+    id: 91,
+    citation: '"Habits Cheat Sheet." James Clear',
+    url: "https://s3.amazonaws.com/jamesclear/Atomic+Habits/Habits+Cheat+Sheet.pdf",
+  },
+  {
+    id: 92,
+    citation: '"Media Kit." James Clear',
+    url: "https://s3.amazonaws.com/jamesclear/Atomic+Habits/Media.pdf",
+  },
+  {
+    id: 93,
+    citation: '"Questions and Answers." James Clear',
+    url: "https://s3.amazonaws.com/jamesclear/Atomic+Habits/Questions+and+Answers.pdf",
+  },
+  {
+    id: 94,
+    citation: '"Best Books." James Clear',
+    url: "https://jamesclear.com/best-books",
+  },
+  {
+    id: 95,
+    citation: '"Habits of Self-Made Millionaire Entrepreneurs." The Successful Founder',
+    url: "https://thesuccessfulfounder.com/10-daily-habits-of-self-made-millionaire-entrepreneurs/",
+  },
+  {
+    id: 96,
+    citation: '"Understanding the Ideal Self." Psychology Today',
+    url: "https://www.psychologytoday.com/us/blog/learning-to-lead/202412/understanding-the-ideal-self",
+  },
+  {
+    id: 97,
+    citation: '"An Attitude of Curiosity." Psychology Today',
+    url: "https://www.psychologytoday.com/us/blog/the-edge-peak-performance-psychology/201411/an-attitude-of-curiosity",
+  },
+  {
+    id: 98,
+    citation: '"Know Thyself." Knowledge Enthusiast',
+    url: "https://knowledgeenthusiast.com",
+  },
+  {
+    id: 99,
+    citation: '"Habits of Successful People." Shopify',
+    url: "https://www.shopify.com/blog/habits-of-successful-people",
+  },
+  {
+    id: 100,
+    citation: '"10 Habits of Self-Made Millionaires." Forbes',
+    url: "https://www.forbes.com/sites/jackkelly/2023/12/15/10-habits-of-self-made-millionaires/",
+  },
 ];
 
 export default function SourcesPage() {
